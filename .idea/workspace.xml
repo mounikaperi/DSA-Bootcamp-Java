@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a879d0d4-e1b2-4e97-9eb3-76c90e6e5595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSABootcampJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/CheckIfNumberIsEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/FindUniqueNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAWithJava/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAWithJava/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAWithJava/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAWithJava/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAWithJava/src/com/java/dsa/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSAWithJava/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/.gitignore" beforeDir="false" />
@@ -456,6 +455,8 @@
       <change beforePath="$PROJECT_DIR$/../DSA/node_modules/vary/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -498,24 +499,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jofLlOoE4lp9vjd2HcNaxzAUst" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CheckIfNumberIsEven.executor": "Run",
-    "Application.FindUniqueNumberInArray.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CheckIfNumberIsEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindUniqueNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.FindUniqueNumberInArray">
     <configuration name="CheckIfNumberIsEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.bitmanipulation.CheckIfNumberIsEven" />
@@ -549,6 +553,13 @@
         <item itemvalue="Application.CheckIfNumberIsEven" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

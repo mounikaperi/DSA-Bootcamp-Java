@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+=======
+/.metadata/
+>>>>>>> eb4f7757857cc47cf215a8185106505389f04fc4

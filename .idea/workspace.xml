@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a879d0d4-e1b2-4e97-9eb3-76c90e6e5595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSAWithJava/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAWithJava/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAWithJava/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAWithJava/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAWithJava/src/com/java/dsa/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAWithJava/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/Conversions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/.gitignore" beforeDir="false" />
@@ -455,7 +450,6 @@
       <change beforePath="$PROJECT_DIR$/../DSA/node_modules/vary/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
@@ -511,18 +505,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CheckIfNumberIsEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindUniqueNumberInArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheckIfNumberIsEven.executor": "Run",
+    "Application.Conversions.executor": "Run",
+    "Application.FindUniqueNumberInArray.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.FindUniqueNumberInArray">
+}]]></component>
+  <component name="RunManager" selected="Application.Conversions">
     <configuration name="CheckIfNumberIsEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.bitmanipulation.CheckIfNumberIsEven" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.bitmanipulation.Conversions" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -539,7 +548,7 @@
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.bitmanipulation.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -549,6 +558,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Conversions" />
         <item itemvalue="Application.FindUniqueNumberInArray" />
         <item itemvalue="Application.CheckIfNumberIsEven" />
       </list>

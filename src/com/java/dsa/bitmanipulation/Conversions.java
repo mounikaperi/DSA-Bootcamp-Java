@@ -1,12 +1,18 @@
 package com.java.dsa.bitmanipulation;
 public class Conversions {
     public static void main(String[] args) {
-        int number = 13;
-        System.out.println("Convert " +number+ " to Binary: " + convertToBinary(number));
-        String binaryNumber = "1101";
+        int number1 = 12; int number2 = 25;
+        String binaryNumber = "1100";
+        System.out.println("Convert " +number1+ " to Binary: " + convertToBinary(number1));
         System.out.println("Convert " +binaryNumber+ " to Decimal: " + convertToDecimal(binaryNumber));
-        System.out.println("Convert " +number+ " to 1's compliment: " + convertTo1sCompliment(number));
-        System.out.println("Convert " +number+ " to 2's compliment: " + convertTo2sCompliment(number));
+        System.out.println("Convert " +number1+ " to 1's compliment: " + convertTo1sCompliment(number1));
+        System.out.println("Convert " +number1+ " to 2's compliment: " + convertTo2sCompliment(number1));
+        System.out.println("Bitwise AND for number1: " +number1+ " and number2: " +number2+ " is " +bitwiseAnd(number1, number2));
+        System.out.println("Bitwise OR for number1: " +number1+ " and number2: " +number2+ " is " +bitwiseOr(number1, number2));
+        System.out.println("Bitwise XoR for number1: " +number1+ " and number2: " +number2+ " is " +bitwiseXor(number1, number2));
+        System.out.println("LeftShift for number1: " +number1+ " is " +leftShift(number1));
+        System.out.println("RightShift for number1: " +number1+ " is " +rightShift(number1));
+        System.out.println("Not for number1: " +number1+ " is " +not(number1));
     }
     static String convertToBinary(int number) {
         StringBuilder sb = new StringBuilder();
@@ -59,5 +65,27 @@ public class Conversions {
             result.insert(0, '1');
         }
         return result.toString();
+    }
+    static int bitwiseAnd(int number1, int number2) {
+        return number1 & number2;
+    }
+    static int bitwiseOr(int number1, int number2) {
+        return number1 | number2;
+    }
+    static int bitwiseXor(int number1, int number2) {
+        // If number of 1s are odd -> 1, If number of 1s are even -> 0
+        return number1 ^ number2;
+    }
+    static int leftShift(int number) {
+        // left shift by k places means num * Math(2, k)
+        return number << 5;
+    }
+    static int rightShift(int number) {
+        // right shift by k places -> num / Math.pow(2, k)
+        return number >> 1;
+    }
+    static int not(int number) {
+        // flip bits- check if negative - if it is negative do 2s complement else stop
+        return ~number;
     }
 }

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a879d0d4-e1b2-4e97-9eb3-76c90e6e5595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/SwapTwoNumbersWithoutThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/BuildArrayFromPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/ConcatenationOfTwoArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/.gitignore" beforeDir="false" />
@@ -450,7 +451,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/Conversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/ithBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/ithBit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -507,7 +508,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuildArrayFromPermutation.executor": "Run",
     "Application.CheckIfNumberIsEven.executor": "Run",
+    "Application.ConcatenationOfTwoArrays.executor": "Run",
     "Application.Conversions.executor": "Run",
     "Application.FindUniqueNumberInArray.executor": "Run",
     "Application.SwapTwoNumbersWithoutThird.executor": "Run",
@@ -517,13 +520,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwapTwoNumbersWithoutThird">
-    <configuration name="CheckIfNumberIsEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.bitmanipulation.CheckIfNumberIsEven" />
+  <component name="RunManager" selected="Application.ConcatenationOfTwoArrays">
+    <configuration name="BuildArrayFromPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.BuildArrayFromPermutation" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.java.dsa.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatenationOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.ConcatenationOfTwoArrays" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -572,10 +588,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcatenationOfTwoArrays" />
+        <item itemvalue="Application.BuildArrayFromPermutation" />
         <item itemvalue="Application.SwapTwoNumbersWithoutThird" />
         <item itemvalue="Application.Conversions" />
         <item itemvalue="Application.FindUniqueNumberInArray" />
-        <item itemvalue="Application.CheckIfNumberIsEven" />
       </list>
     </recent_temporary>
   </component>

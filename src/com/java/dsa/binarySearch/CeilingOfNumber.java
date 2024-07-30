@@ -2,12 +2,13 @@ class CeilingOfNumber {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 9, 10, 11};
         int target = 8;
-        System.out.println("Is Element found? " + CeilingOfNumber(arr, target));
+        System.out.println("Is Element found? " + ceilingOfNumber(arr, target));
     }
     static boolean isArraySortedInAscOrder(int[] arr, int low, int high) {
         return arr[low] < arr[high];
     }
-    static int CeilingOfNumber(int[] arr, int target) {
+    static int ceilingOfNumber(int[] arr, int target) {
+        if (target > arr[arr.length-1]) return -1;
         int low = 0; int high = arr.length-1;
         boolean isArrSortedInAscending = isArraySortedInAscOrder(arr, low, high);
         while(low <= high) {

@@ -8,10 +8,9 @@ class FindFirstLastPositionOfElement {
     }
     static int[] searchRange(int[] arr, int target) {
         int ans[] = {-1, -1};
-        int firstOccurrence = search(arr, target, true);
-        if (firstOccurrence == -1) return ans;
-        int lastOccurrence = search(arr, target, faalse);
-        ans[0] = firstOccurrence; ans[1] = lastOccurrence;
+        arr[0] = search(arr, target, true);
+        if (arr[0] == -1) return ans;
+        arr[1] = search(arr, target, false);
         return ans;
     }
     static int search(int[] arr, int target, boolean findStartIndex) {

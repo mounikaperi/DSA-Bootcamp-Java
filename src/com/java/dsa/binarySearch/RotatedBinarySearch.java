@@ -21,7 +21,7 @@ class RotatedBinarySearch {
             // Case-3: If middle element is less than or equal to start => elements after middle element will be smaller than start
             if (arr[mid] <= arr[start]) end = mid -1;
             // Case-4: If start is less than middle - it may be possible that bigger elements will lie after mid
-            if (arr[mid] <= arr[start]) start = mid + 1;
+            else start = mid + 1;
         }
         return -1;
     }

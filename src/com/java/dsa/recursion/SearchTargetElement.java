@@ -11,7 +11,9 @@ public class SearchTargetElement {
 		int lastIndex = findLastIndex(arr, target, arr.length-1);
 		System.out.println("The last index at which element is found: " + lastIndex);
 		ArrayList<Integer> resultList = findAllIndices(arr, target, 0);
-		System.out.println("The indices matching the target element is: " + list);
+		System.out.println("The indices matching the target element is: " + resultList);
+		ArrayList<Integer> resultList1 = findAllIndices1(arr, target, 0);
+		System.out.println("The indices matching the target element is: " + resultList1);
 	}
 	private static boolean findTarget(int[] arr, int target, int index) {
 	    if (index == arr.length) return false;
@@ -32,5 +34,13 @@ public class SearchTargetElement {
 	    if (arr[index] == target) list.add(index);
 	    findAllIndices(arr, target, index+1);
 	    return list;
+	}
+	private static ArrayList<Integer> findAllIndices1(int[] arr, int target, int index) {
+	    ArrayList<Integer> list1 = new ArrayList<Integer>();
+	    if (index == arr.length) return list1;
+	    if (arr[index] == target) list1.add(index);
+	    ArrayList<Integer> ansFromAboveRecursionCalls = findAllIndices1(arr, target, index+1);
+	    list1.addAll(ansFromAboveRecursionCalls);
+	    return list1;
 	}
 }

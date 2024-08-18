@@ -1,5 +1,6 @@
 public class CapacityToShipInDdays {
 	public static void main(String[] args) {
+	    // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/
 	    int[] arr = {1,2,3,4,5,6,7,8,9,10};
 	    int days = 5;
 		System.out.println("The smallest divisor is: " + shipWithinDays(arr, days));

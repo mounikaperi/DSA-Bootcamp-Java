@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 class RotatedBinarySearchShortVersion {
     public static void main(String[] args) {
         int[] arr = {4, 5, 5, 6, 7, 0, 1, 2, 3, 4};
@@ -5,7 +6,7 @@ class RotatedBinarySearchShortVersion {
         int index = searchInRotatedArray(arr, target);
         System.out.println("Element is found at position " + index);
     }
-    public int searchInRotatedArray(int[] nums, int target) {
+    private static int searchInRotatedArray(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;
         while(low <= high) {

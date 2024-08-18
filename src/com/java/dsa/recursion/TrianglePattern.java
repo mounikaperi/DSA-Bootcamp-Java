@@ -1,3 +1,4 @@
+package com.java.dsa.recursion;
 public class TrianglePattern {
 	public static void main(String[] args) {
 		reverseTriangle(4, 0);

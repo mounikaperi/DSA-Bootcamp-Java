@@ -1,5 +1,6 @@
+package com.java.dsa.sorting;
 import java.util.Arrays;
-public class Main {
+public class InsertionSort {
 	public static void InsertionSort(String[] args) {
 		int[] arr = {10, 8, 9, 6, 7, 5, 4, 3, 1, 2};
 		System.out.println("Array before sorting: " + Arrays.toString(arr));

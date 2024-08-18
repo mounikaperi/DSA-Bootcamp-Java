@@ -1,6 +1,6 @@
-import java.util.*;
+package com.java.dsa.recursion;
 
-public class Main {
+public class RecursionBasicProblems {
     static int sum = 0;
     public static void main(String[] args) {
       print1toN(5);

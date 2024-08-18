@@ -1,5 +1,5 @@
+package com.java.dsa.sorting;
 import java.util.Arrays;
-
 public class SelectionSort {
 	public static void main(String[] args) {
 		int[] arr = {10, 8, 9, 6, 7, 5, 4, 3, 1, 2};

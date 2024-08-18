@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.binarySearch;
 public class SquareRootOfNumber {
     public static void main(String[] args) {
         int x=8;

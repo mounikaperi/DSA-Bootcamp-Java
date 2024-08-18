@@ -1,13 +1,12 @@
-public class Main {
+package com.java.dsa.binarySearch;
+public class NumberOfOccurrencesInSortedArray {
 	public static void main(String[] args) {
 	    // https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-occurrence
 		int[] arr = {1,1,2,2,2,2,3};
         int target = 2;
-        int[] searchRange = searchRange(arr, target);
-        System.out.println("First Occurrence is: " + searchRange[0] + " Last Occurrence is: " + searchRange[1]);
-        System.out.println("Number of occurrences is: " + count(arr, target));
+        System.out.println("Number of occurrences is: " + noOfOccurrences(arr, target));
 	}
-	private static int count(int[] arr, int x) {
+	private static int noOfOccurrences(int[] arr, int x) {
         int firstOccurrence = searchOccurrence(arr, x, true);
         if (firstOccurrence == -1) return 0;
         int secondOccurrence = searchOccurrence(arr, x, false);

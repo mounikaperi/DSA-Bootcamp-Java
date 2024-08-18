@@ -1,5 +1,4 @@
-import java.util.*;
-
+package com.java.dsa.binarySearch;
 public class NoOfBouquets {
     public static void main(String[] args) {
         // https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/

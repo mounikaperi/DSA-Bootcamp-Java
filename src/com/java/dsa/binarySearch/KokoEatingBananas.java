@@ -1,5 +1,5 @@
+package com.java.dsa.binarySearch;
 import java.util.*;
-
 public class KokoEatingBananas {
     public static void main(String[] args) {
       // https://leetcode.com/problems/koko-eating-bananas/description/

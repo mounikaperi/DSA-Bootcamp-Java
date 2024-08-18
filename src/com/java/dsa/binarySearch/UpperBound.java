@@ -1,4 +1,5 @@
-public class Main {
+package com.java.dsa.binarySearch;
+public class UpperBound {
 	public static void main(String[] args) {
 		int[] arr = {3, 5, 8, 9, 15, 19};
         int n = 6, x = 9;

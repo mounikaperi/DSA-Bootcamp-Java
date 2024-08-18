@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class ArrangeCoins {
     public static void main(String[] args) {
         // https://leetcode.com/problems/arranging-coins/description/

@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class CountNumberOfNegatives {
     public static void main(String[] args) {
         // https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/description/

@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 class FindFirstLastPositionOfElement {
     public static void main(String[] args) {

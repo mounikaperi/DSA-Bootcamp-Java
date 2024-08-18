@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 class PeakIndexInMountainArray {
     public static void main(String[] args) {
          int[] arr = {10, 20, 30, 40, 50, 45, 35, 25, 15, 0};

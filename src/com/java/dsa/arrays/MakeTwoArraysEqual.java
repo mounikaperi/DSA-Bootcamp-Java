@@ -1,3 +1,4 @@
+package com.java.dsa.arrays;
 public class MakeTwoArraysEqual
 {
 	public static void main(String[] args) {

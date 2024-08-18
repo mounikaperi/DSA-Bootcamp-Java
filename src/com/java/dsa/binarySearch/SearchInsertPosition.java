@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class SearchInsertPosition {
 	public static void main(String[] args) {
     // https://leetcode.com/problems/search-insert-position/description/

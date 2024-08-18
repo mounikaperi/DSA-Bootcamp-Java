@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 // https://leetcode.com/problems/search-in-rotated-sorted-array/
 class RotatedBinarySearchWithDuplicatesLongVersion {
     public static void main(String[] args) {

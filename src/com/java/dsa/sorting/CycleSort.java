@@ -1,4 +1,5 @@
-import java.util.*;
+package com.java.dsa.sorting;
+import java.util.Arrays;
 public class CycleSort {
     public static void main(String[] args) {
         int[] arr = {5, 2, 1, 4, 3};

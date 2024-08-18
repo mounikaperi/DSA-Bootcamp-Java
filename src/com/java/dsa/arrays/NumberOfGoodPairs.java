@@ -1,7 +1,9 @@
-import java.util.*;
+package com.java.dsa.arrays;
 
-public class Main {
-    public static void NumberOfGoodPairs(String[] args) {
+import java.util.HashMap;
+
+public class NumberOfGoodPairs {
+    public static void main(String[] args) {
         // https://leetcode.com/problems/number-of-good-pairs/
         int[] arr = {1,2,3,1,1,3};
         System.out.println("Total number of good pairs: " + numIdenticalPairs1(arr));

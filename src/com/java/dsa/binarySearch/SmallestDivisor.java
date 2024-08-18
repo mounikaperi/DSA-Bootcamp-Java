@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class SmallestDivisor {
 	public static void main(String[] args) {
 		// https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/

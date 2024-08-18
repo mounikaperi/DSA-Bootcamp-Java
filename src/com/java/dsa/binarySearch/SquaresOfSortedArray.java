@@ -1,5 +1,6 @@
-import java.util.*;
-public class SortedSquaresOfArray {
+package com.java.dsa.binarySearch;
+import java.util.Arrays;
+public class SquaresOfSortedArray {
     public static void main(String[] args) {
         // https://leetcode.com/problems/squares-of-a-sorted-array/description/
         int[] arr = {-4,-1,0,3,10};

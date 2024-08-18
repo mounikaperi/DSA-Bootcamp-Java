@@ -1,3 +1,6 @@
+package com.java.dsa.arrays;
+import java.util.List;
+import java.util.ArrayList;
 class GreatestNumberOfCandies {
     public static void main(String[] args) {
         int[] candies = {2, 3, 5, 1, 3};

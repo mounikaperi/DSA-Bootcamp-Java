@@ -1,4 +1,6 @@
-import java.util.*;
+package com.java.dsa.arrays;
+
+import java.util.Arrays;
 
 class NumbersSmallerThanCurrent {
     public static void main(String[] args) {

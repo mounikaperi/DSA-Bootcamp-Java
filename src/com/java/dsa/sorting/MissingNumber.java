@@ -1,3 +1,4 @@
+package com.java.dsa.sorting;
 public class MissingNumber {
     public static void main(String[] args) {
         // https://leetcode.com/problems/missing-number/description/

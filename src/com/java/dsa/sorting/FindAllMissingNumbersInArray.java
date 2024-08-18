@@ -1,5 +1,7 @@
-import java.util.*;
-public class Main {
+package com.java.dsa.sorting;
+import java.util.List;
+import java.util.ArrayList;
+public class FindAllMissingNumbersInArray {
 	public static void main(String[] args) {
 	    // https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 	    int[] arr = {4,3,2,7,8,2,3,1};

@@ -1,5 +1,5 @@
+package com.java.dsa.binarySearch;
 import java.util.*;
-
 public class IsNumberPerfectSquare {
     public static void main(String[] args) {
         // https://leetcode.com/problems/valid-perfect-square/

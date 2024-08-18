@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class CapacityToShipInDdays {
 	public static void main(String[] args) {
 	    // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/

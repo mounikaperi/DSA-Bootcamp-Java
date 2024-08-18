@@ -1,5 +1,4 @@
-import java.util.*;
-
+package com.java.dsa.arrays;
 class FindSingleElementInArray {
     public static void main(String[] args) {
         // https://leetcode.com/problems/single-number/description/

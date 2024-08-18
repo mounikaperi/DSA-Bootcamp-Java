@@ -1,6 +1,6 @@
 package com.java.dsa.arrays;
 
-import java.util.*;
+import java.util.Arrays;
 
 class RunningSumOf1D {
     public static void main(String[] args) {

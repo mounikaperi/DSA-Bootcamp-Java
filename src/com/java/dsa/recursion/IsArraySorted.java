@@ -1,3 +1,4 @@
+package com.java.dsa.recursion;
 public class IsArraySorted {
 	public static void main(String[] args) {
 	    int[] arr = {10, 1, 9, 2, 3, 8, 7, 4, 6, 5};

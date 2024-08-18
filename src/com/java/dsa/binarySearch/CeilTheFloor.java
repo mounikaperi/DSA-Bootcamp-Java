@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class CeilTheFloor {
 	public static void main(String[] args) {
     // https://www.naukri.com/code360/problems/ceiling-in-a-sorted-array_1825401

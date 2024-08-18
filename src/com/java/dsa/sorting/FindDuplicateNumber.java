@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.sorting;
 public class FindDuplicateNumber {
 	public static void main(String[] args) {
 	    // https://leetcode.com/problems/find-the-duplicate-number/description/

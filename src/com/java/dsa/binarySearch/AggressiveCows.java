@@ -1,3 +1,5 @@
+package com.java.dsa.binarySearch;
+
 import java.util.Arrays;
 public class AggressiveCows {
 	public static void main(String[] args) {

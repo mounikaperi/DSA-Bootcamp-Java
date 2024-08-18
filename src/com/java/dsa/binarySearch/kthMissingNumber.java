@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 public class kthMissingNumber {
     public static void main(String[] args) {
         // https://leetcode.com/problems/kth-missing-positive-number/description/

@@ -1,5 +1,6 @@
 public class SmallestDivisor {
 	public static void main(String[] args) {
+		// https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/
 	    int[] arr = {1,2,5,9};
 	    int threshold = 6;
 		System.out.println("The smallest divisor is: " + smallestDivisor(arr, threshold));

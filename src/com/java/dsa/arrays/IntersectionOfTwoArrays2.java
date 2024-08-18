@@ -1,6 +1,10 @@
 package com.java.dsa.arrays;
 
 import java.util.Arrays;
+import java.util.Map;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.HashMap;
 public class IntersectionOfTwoArrays2 {
     public static void main(String[] args) {
         // https://leetcode.com/problems/intersection-of-two-arrays-ii/description/

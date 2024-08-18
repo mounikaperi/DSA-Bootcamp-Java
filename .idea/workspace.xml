@@ -449,69 +449,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/CheckIfSentenceIsPanagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/CheckIfSentenceIsPanagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/FindSingleElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/FindSingleElementInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/GreatestNumberOfCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/GreatestNumberOfCandies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/IntersectionOfTwoArrays1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/IntersectionOfTwoArrays1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/IntersectionOfTwoArrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/IntersectionOfTwoArrays2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/MakeTwoArraysEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/MakeTwoArraysEqual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/NumberOfGoodPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/NumberOfGoodPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/NumbersSmallerThanCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/NumbersSmallerThanCurrent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/RunningSumOf1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/RunningSumOf1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/AggressiveCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/AggressiveCows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/ArrangeCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/ArrangeCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchFlatten2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchFlatten2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchIn2DArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchIn2DArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchInfiniteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchInfiniteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CapacityToShipInDdays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CapacityToShipInDdays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CeilTheFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CeilTheFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CeilingOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CeilingOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CountNumberOfNegatives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CountNumberOfNegatives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindFirstLastPositionOfElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindFirstLastPositionOfElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindInMountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindSmallestLetterGreaterThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindSmallestLetterGreaterThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FirstNLastPositionInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FirstNLastPositionInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FloorOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FloorOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/IsNumberPerfectSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/IsNumberPerfectSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/KokoEatingBananas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/LowerBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/LowerBound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/NoOfBouquets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/NoOfBouquets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/NumberOfOccurrencesInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/NumberOfOccurrencesInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/OrderAgnosticBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/OrderAgnosticBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/PeakIndexInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/PeakIndexInMountainArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchShortVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchShortVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchWithDuplicatesLongVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchWithDuplicatesLongVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchWithoutDuplicatesLongVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchWithoutDuplicatesLongVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotationCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotationCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SingleElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SingleElementInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SmallestDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SmallestDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SmallestLetterGreaterThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SmallestLetterGreaterThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquareRootOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquareRootOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquaresOfSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquaresOfSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/UpperBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/UpperBound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/kthMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/kthMissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/CountZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/CountZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/IsArraySorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/IsArraySorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/NumberOfSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/NumberOfSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/RecursionBasicProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/RecursionBasicProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/ReverseNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/RotatedBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/RotatedBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/SearchTargetElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/SearchTargetElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/recursion/TrianglePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/TrianglePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/CycleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/CycleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/FindAllMissingNumbersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/FindAllMissingNumbersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/FindDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/FindDuplicateNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/MissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/MissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/sorting/SetMismatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/SetMismatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -568,7 +506,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSort.executor": "Debug",
     "Application.BuildArrayFromPermutation.executor": "Run",
     "Application.CheckIfNumberIsEven.executor": "Run",
     "Application.CheckIfSentenceIsPanagram.executor": "Run",
@@ -585,7 +523,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberOfGoodPairs">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.recursion.BubbleSort" />
       <module name="DSABootcampJava" />
@@ -653,9 +591,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.NumberOfGoodPairs" />
         <item itemvalue="Application.CheckIfSentenceIsPanagram" />
-        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.RichestCustomerWealth" />
         <item itemvalue="Application.RunningSumOf1D" />
       </list>
@@ -697,6 +635,54 @@
           <url>file://$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/Conversions.java</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>11</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

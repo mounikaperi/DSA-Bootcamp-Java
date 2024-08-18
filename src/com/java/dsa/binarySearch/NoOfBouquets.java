@@ -2,6 +2,7 @@ import java.util.*;
 
 public class NoOfBouquets {
     public static void main(String[] args) {
+        // https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
       int[] bloomDay = {1,10,3,10,2};
       int m = 3, k = 1;
       int minimumTime = minDays(bloomDay, m , k);

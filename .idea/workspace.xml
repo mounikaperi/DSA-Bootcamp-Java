@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a879d0d4-e1b2-4e97-9eb3-76c90e6e5595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/BuildArrayFromPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/ConcatenationOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/RichestCustomerWealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/RunningSumOf1D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/ShuffleArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/.gitignore" beforeDir="false" />
@@ -451,7 +452,6 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/ithBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/bitmanipulation/ithBit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -513,6 +513,8 @@
     "Application.ConcatenationOfTwoArrays.executor": "Run",
     "Application.Conversions.executor": "Run",
     "Application.FindUniqueNumberInArray.executor": "Run",
+    "Application.RichestCustomerWealth.executor": "Run",
+    "Application.RunningSumOf1D.executor": "Run",
     "Application.SwapTwoNumbersWithoutThird.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -520,7 +522,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConcatenationOfTwoArrays">
+  <component name="RunManager" selected="Application.RichestCustomerWealth">
     <configuration name="BuildArrayFromPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.BuildArrayFromPermutation" />
       <module name="DSABootcampJava" />
@@ -547,12 +549,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.bitmanipulation.Conversions" />
+    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.RichestCustomerWealth" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.bitmanipulation.*" />
+          <option name="PATTERN" value="com.java.dsa.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -560,12 +562,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindUniqueNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.bitmanipulation.FindUniqueNumberInArray" />
+    <configuration name="RunningSumOf1D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.RunningSumOf1D" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.java.dsa.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -588,11 +590,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RichestCustomerWealth" />
+        <item itemvalue="Application.RunningSumOf1D" />
         <item itemvalue="Application.ConcatenationOfTwoArrays" />
         <item itemvalue="Application.BuildArrayFromPermutation" />
         <item itemvalue="Application.SwapTwoNumbersWithoutThird" />
-        <item itemvalue="Application.Conversions" />
-        <item itemvalue="Application.FindUniqueNumberInArray" />
       </list>
     </recent_temporary>
   </component>

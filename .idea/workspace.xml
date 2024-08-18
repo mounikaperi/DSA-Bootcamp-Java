@@ -5,9 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a879d0d4-e1b2-4e97-9eb3-76c90e6e5595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/RichestCustomerWealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/RunningSumOf1D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/ShuffleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/CheckIfSentenceIsPanagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/FindSingleElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/GreatestNumberOfCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/IntersectionOfTwoArrays1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/IntersectionOfTwoArrays2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/MakeTwoArraysEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/NumberOfGoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/NumbersSmallerThanCurrent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/TargetArrayInOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/AggressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/ArrangeCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchFlatten2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchIn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchIn2DArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/BinarySearchInfiniteArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CapacityToShipInDdays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CeilTheFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CeilingOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/CountNumberOfNegatives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindFirstLastPositionOfElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindInMountainArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FindSmallestLetterGreaterThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FirstNLastPositionInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/FloorOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/IsNumberPerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/LowerBound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/NoOfBouquets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/NumberOfOccurrencesInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/OrderAgnosticBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/PeakIndexInMountainArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchShortVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchWithDuplicatesLongVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotatedBinarySearchWithoutDuplicatesLongVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/RotationCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SingleElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SmallestDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SmallestLetterGreaterThanTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquareRootOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquaresOfSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/UpperBound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/kthMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/math/IntegerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/CountZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/IsArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/NumberOfSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/RecursionBasicProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/RotatedBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/SearchTargetElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/recursion/TrianglePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/CycleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/FindAllMissingNumbersInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/FindDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/MissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/SetMismatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/.gitignore" beforeDir="false" />
@@ -451,7 +512,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/node_modules/vary/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/RunningSumOf1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/RunningSumOf1D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -506,22 +567,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BuildArrayFromPermutation.executor": "Run",
-    "Application.CheckIfNumberIsEven.executor": "Run",
-    "Application.ConcatenationOfTwoArrays.executor": "Run",
-    "Application.Conversions.executor": "Run",
-    "Application.FindUniqueNumberInArray.executor": "Run",
-    "Application.RichestCustomerWealth.executor": "Run",
-    "Application.RunningSumOf1D.executor": "Run",
-    "Application.SwapTwoNumbersWithoutThird.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BuildArrayFromPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIfNumberIsEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcatenationOfTwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conversions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindUniqueNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunningSumOf1D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapTwoNumbersWithoutThird.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.RichestCustomerWealth">
     <configuration name="BuildArrayFromPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.BuildArrayFromPermutation" />

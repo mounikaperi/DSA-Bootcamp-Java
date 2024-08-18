@@ -1,13 +1,14 @@
 package com.java.dsa.arrays;
 
-import java.util.Arrays;
+import java.util.*;
 
-public class RunningSumOf1D {
+class RunningSumOf1D {
     public static void main(String[] args) {
-        int nums[] = {1,2,3,4};
-        System.out.println("Sum of previous elements of array: " + Arrays.toString(sumOf1D(nums)));
+        // https://leetcode.com/problems/running-sum-of-1d-array/description/
+        int[] arr = {1, 2, 3, 4};
+        System.out.println("Smaller elements in array for each element: " + Arrays.toString(runningSum(arr)));
     }
-    static int[] sumOf1D(int[] nums) {
+    public static int[] runningSum(int[] nums) {
         for (int i=1; i<nums.length; i++) {
             nums[i] += nums[i-1];
         }

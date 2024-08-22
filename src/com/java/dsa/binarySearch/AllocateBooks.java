@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 public class AllocateBooks {
 	public static void main(String[] args) {
+		// https://www.naukri.com/code360/problems/allocate-books_1090540?utm_source=youtube&utm_medium=affiliate&utm_campaign=codestudio_Striver_BinarySeries&leftPanelTabValue=PROBLEM
 		ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(12, 34, 67, 90));
 		int n = 4;
 		int m = 2;

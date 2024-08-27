@@ -46,6 +46,7 @@ public class RotationOfArrays {
 	}
 	private static void leftRotateArrayByKUsingRecursion(int[] arr, int k) {
 	    int n = arr.length;
+	    k %= arr.length;
 	    reverseArray(arr, 0, k-1); // Reverse first k elements - 30 20 10
 	    reverseArray(arr, k, n-1); // reverse last n-k elements - 50 40
 	    reverseArray(arr, 0, n-1); // reverse whole array - 40 50 30 20 10
@@ -62,6 +63,7 @@ public class RotationOfArrays {
 	}
 	private static void rightRotateArrayByKUsingRecursion(int[] arr, int k) {
 	    int n = arr.length;
+	    k %= arr.length;
 	    reverseArray(arr, 0, n-k-1); // Reverse first n-k elements 20 10
 	    reverseArray(arr, n-k, n-1); // reverse last k elements 50 40 30
 	    reverseArray(arr, 0, n-1); // reverse whole array 30 40 50 20 10

@@ -15,6 +15,8 @@ public class CustomLinkedListImplementation {
 	    linkedList.display();
 	    System.out.println("The value that is deleted is: " + linkedList.deleteAtIndex(3));
 	    linkedList.display();
+        insertUsingRecurion(2, 2);
+	    linkedList.display();
 	}
 }
 class CustomLinkedList {
@@ -59,6 +61,18 @@ class CustomLinkedList {
         Node node = new Node(value, temp.next);
         temp.next = node;
         size++;
+    }
+    public void insertUsingRecurion(int index, int value) {
+        head = insertUsingRecurion(value, index, head);
+    }
+    private Node insertUsingRecursion(int value, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(value, node);
+            size++;
+            return temp;
+        }
+        node.next = insertUsingRecurion(value, index--, node.next);
+        return node;
     }
     public void display() {
         Node temp = head;

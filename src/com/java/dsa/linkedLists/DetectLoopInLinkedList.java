@@ -2,6 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 public class DetectLoopInLinkedList {
 	public static void main(String[] args) {
+		// https://leetcode.com/problems/linked-list-cycle/description/
 		Node head = new Node(1);
 		Node second = new Node(2);
 		Node third = new Node(3);

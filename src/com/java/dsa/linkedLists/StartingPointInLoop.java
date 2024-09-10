@@ -35,6 +35,9 @@ public class StartingPointInLoop {
 	    return null;
 	}
 	private static Node detectLoopUsingTortoiseHareAlgo(Node head) {
+		// Detect cycle
+		// Find the length of the loop
+		// loop slow pointer length number of times - fast, slow pointer would point at starting point of loop
 	    Node tortoise = head;
 	    Node hare = head;
 	    while (hare!=null && hare.next!=null) {

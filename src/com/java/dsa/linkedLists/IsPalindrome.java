@@ -1,6 +1,7 @@
 import java.util.Stack;
 public class IsPalindrome {
 	public static void main(String[] args) {
+		// https://leetcode.com/problems/palindrome-linked-list/description/
 		Node head = new Node(1);
         head.next = new Node(5);
         head.next.next = new Node(2);

@@ -1,5 +1,6 @@
 import java.util.Stack;
 public class ReverseLinkedList {
+	https://leetcode.com/problems/reverse-linked-list/description/
 	public static void main(String[] args) {
 		Node head = new Node(1);
 		head.next = new Node(3);

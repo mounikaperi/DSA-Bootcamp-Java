@@ -8,6 +8,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
     System.out.println("SlidingWindow: The length of the longest substring is: " + lengthOfLongestSubstringUsingSlidingWindow(s)); 
   }
   private static int lengthOfLongestSubstring(String s) { // O(n^2)
+    if (s.length() == 0) return 0;
+    if (s.length() == 1) return 1;
     int maxLength = 0;
     for (int i=0; i<s.length()-1; i++) {
       int[] hash = new int[256];
@@ -20,6 +22,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
     return maxLength;
   }
   private static int lengthOfLongestSubstringUsingSlidingWindow(String s) {
+    if (s.length() == 0) return 0;
+    if (s.length() == 1) return 1;
     int[] hash = new int[256];
     Arrays.fill(hash, -1);
     int left = 0;

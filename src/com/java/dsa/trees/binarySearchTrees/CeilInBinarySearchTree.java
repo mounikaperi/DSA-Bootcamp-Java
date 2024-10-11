@@ -21,8 +21,8 @@ public class CeilInBinarySearchTree {
         if (value > temp.data) {
           temp = temp.right;
         } else {
-          temp = temp.left;
           ceil = temp.data;
+          temp = temp.left;
         }
       }
       return ceil;

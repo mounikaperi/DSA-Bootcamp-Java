@@ -19,6 +19,7 @@ public class SumNAvg {
       return average;
     }
     private static int sum(int[][] arr, int x, int rows, int y, int cols) {
+      // This is the BinarySum for 2D matrix, assuming you have n1 rows and n2 column, So, the total sum will be equals to the sum of n1/2 first rows and n1/2 last rows. For each row, the sum will be divided into n2/2 first columns and n2/2 last columns,
       if (rows == 1 && cols == 1)
         return arr[x][y];
       if (rows == 1)

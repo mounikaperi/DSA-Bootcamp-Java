@@ -36,6 +36,22 @@ public class RootToLeafNodePath {
       result.remove(result.size()-1);
       return false;
     }
+    // if there are multiple paths to reach to the leaf node
+    public static ArrayList<ArrayList<Integer>> Paths(Node root) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        getPath(root, new ArrayList<>(), result);
+        return result;
+    }
+    private static void getPath(Node root, ArrayList<Integer> path, ArrayList<ArrayList<Integer>> result) {
+        if (root == null) return;
+        path.add(root.data);
+        if (root.left == null && root.right == null)
+            result.add(new ArrayList<>(path));
+        getPath(root.left, new ArrayList<>(path), result);
+        getPath(root.right, new ArrayList<>(path), result);
+        // if no path found to leaf node then remove the root that is added
+        path.remove(path.size()-1);
+    }
 }
 class TreeNode {
   int data;

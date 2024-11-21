@@ -46,7 +46,7 @@ public class RootToLeafNodePath {
         if (root == null) return;
         path.add(root.data);
         if (root.left == null && root.right == null)
-            result.add(new ArrayList<>(path));
+            result.add(new ArrayList<>(path));  
         getPath(root.left, new ArrayList<>(path), result);
         getPath(root.right, new ArrayList<>(path), result);
         // if no path found to leaf node then remove the root that is added

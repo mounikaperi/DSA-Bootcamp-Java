@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PascalTriangle {
+class PascalTriangle {
     public static void main(String[] args) {
       int row = 5; int col = 3;
       int element = pascalTriangle1(row, col);
@@ -18,4 +18,68 @@ public class PascalTriangle {
       }
       return res;
     }
+}
+
+class PascalTriangle2 {
+    private static int nCr(int n, int r) {
+      long res = 1;
+        for (int i = 0; i < r; i++) {
+          res = res * (n - i);
+          res = res / (i + 1);
+        }
+        return (int) res;
+    }
+    private static List<List<Integer>> pascalTriangle(int n) {
+      List<List<Integer>> ans = new ArrayList<>();
+      for (int row = 1; row <= n; row++) {
+        List<Integer> tempLst = new ArrayList<>();
+        for (int col = 1; col <= row; col++) {
+          tempLst.add(nCr(row - 1, col - 1));
+        }
+        ans.add(tempLst);
+      }
+      return ans;
+    }
+
+    public static void main(String[] args) {
+      int n = 5;
+      List<List<Integer>> ans = pascalTriangle(n);
+      for (List<Integer> it : ans) {
+        for (int ele : it) {
+          System.out.print(ele + " ");
+        }
+        System.out.println();
+      }
+    }
+}
+
+class PascalTriangleOptimized {
+  public static List<Integer> generateRow(int row) {
+    long ans = 1;
+    List<Integer> ansRow = new ArrayList<>();
+    ansRow.add(1);
+    for (int col = 1; col < row; col++) {
+      ans = ans * (row - col);
+      ans = ans / col;
+      ansRow.add((int)ans);
+    }
+    return ansRow;
+  }
+  public static List<List<Integer>> pascalTriangle(int n) {
+    List<List<Integer>> ans = new ArrayList<>();
+    for (int row = 1; row <= n; row++) {
+      ans.add(generateRow(row));
+    }
+    return ans;
+  }
+  public static void main(String[] args) {
+    int n = 5;
+    List<List<Integer>> ans = pascalTriangle(n);
+    for (List<Integer> it : ans) {
+      for (int ele : it) {
+        System.out.print(ele + " ");
+      }
+      System.out.println();
+    }
+  }
 }

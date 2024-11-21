@@ -83,3 +83,19 @@ class PascalTriangleOptimized {
     }
   }
 }
+
+// https://leetcode.com/problems/pascals-triangle-ii/
+// rowIndex is 0 based here hence adding 1 to rowIndex when for loop is running
+class PascalTriangleForSpecificRowIndex {
+    public List<Integer> getRow(int rowIndex) {
+        long ans = 1;
+        List<Integer> result = new ArrayList<>();
+        result.add(1); // always starts with 1
+        for (int col = 1; col < rowIndex+1; col++) {
+            ans = ans * ( rowIndex+1 - col);
+            ans = ans / col;
+            result.add((int) ans);
+        }
+        return result;
+    }
+}

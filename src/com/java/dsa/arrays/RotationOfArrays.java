@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class RotationOfArrays {
+	// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/article/MjM5OA%3D%3D
 	public static void main(String[] args) {
 	    int[] arr1 = {10, 20, 30, 40, 50}; int k=3;
 	    leftRotateArrayByOne(arr1);

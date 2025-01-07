@@ -1,3 +1,5 @@
+package com.java.dsa.strings;
+
 class MaxNestingOfParentheses {
     private static int maxDepth(String s) {
         int maxDepth = 0;

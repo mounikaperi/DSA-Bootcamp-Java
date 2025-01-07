@@ -1,3 +1,5 @@
+package com.java.dsa.slidingwindow;
+
 import java.util.*;
 
 public class LongestSubstringWithoutRepeatingCharacters {

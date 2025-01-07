@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
@@ -50,15 +52,5 @@ public class BinaryTreeRightSideView {
             }
         }
         return result;
-    }
-}
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
     }
 }

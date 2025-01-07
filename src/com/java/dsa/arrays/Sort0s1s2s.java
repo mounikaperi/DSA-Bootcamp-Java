@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 public class Sort0s1s2s {

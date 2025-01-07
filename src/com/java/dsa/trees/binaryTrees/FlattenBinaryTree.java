@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
 
 public class FlattenBinaryTree {
     public static void main(String[] args) {
@@ -29,14 +29,4 @@ public class FlattenBinaryTree {
         current = current.right;
       }
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

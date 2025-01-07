@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class ConstructBSTFromPreorder {
     public static void main(String[] args) {
@@ -36,19 +36,4 @@ public class ConstructBSTFromPreorder {
       }
       return left;
     }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
-  TreeNode(int data, TreeNode left, TreeNode right) {
-    this.data = data;
-    this.left = left;
-    this.right = right;
-  }
 }

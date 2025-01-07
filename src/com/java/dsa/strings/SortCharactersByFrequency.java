@@ -1,6 +1,8 @@
+package com.java.dsa.strings;
+
 import java.util.*;
 class SortCharactersByFrequency {
-    public String frequencySort(String s) {
+    public static String frequencySort(String s) {
         Map<Character, Integer> frequencyMap = new HashMap<>(52); // 26 lowercase, 26 uppercase
         for (int i=0; i<s.length(); i++) {
             // Merge the current character into the map, increasing its count by 1
@@ -18,7 +20,7 @@ class SortCharactersByFrequency {
         return sortedString.toString();
     }
     public static void main(String[] args) {
-      Sting s = "cccaaa";
+      String s = "cccaaa";
       String result = frequencySort(s);
       System.out.println("The sorted string is: " + result);
     }

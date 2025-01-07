@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 public class SeggregateOddEven {
 	public static void main(String[] args) {
 	    Node head = new Node(1);
@@ -32,15 +34,4 @@ public class SeggregateOddEven {
 	    }
 	    System.out.println("END");
 	}
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-    Node(int data) {
-        this.data = data;
-    }
 }

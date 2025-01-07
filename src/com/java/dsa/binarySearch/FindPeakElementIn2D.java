@@ -1,5 +1,7 @@
+package com.java.dsa.binarySearch;
+
 // https://leetcode.com/problems/find-a-peak-element-ii/
-class Solution {
+class FindPeakElementIn2D {
     public int[] findPeakGrid(int[][] mat) {
         int n = mat.length;
         int m = mat[0].length;

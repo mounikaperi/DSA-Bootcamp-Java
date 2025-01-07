@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class BoundaryTraversal {
@@ -16,7 +18,7 @@ public class BoundaryTraversal {
     private static List<Integer> printBoundary(TreeNode root) {
       List<Integer> result = new ArrayList<>();
       if (root == null) return result;
-      if (!isNodeLeaf(root)) result.add(root.data);
+      if (!isNodeLeaf(root)) result.add(root.val);
       addLeftBoundary(root, result);
       addLeaves(root, result);
       addRightBoundary(root, result);
@@ -33,7 +35,7 @@ public class BoundaryTraversal {
       TreeNode currentNode = root.left;
       while (currentNode != null) {
         if (!isNodeLeaf(currentNode)) 
-          result.add(currentNode.data);
+          result.add(currentNode.val);
         if (currentNode.left != null) 
           currentNode = currentNode.left;
         else 
@@ -45,7 +47,7 @@ public class BoundaryTraversal {
       List<Integer> temp = new ArrayList<Integer>();
       while (currentNode != null) {
         if (!isNodeLeaf(currentNode)) 
-          temp.add(currentNode.data);
+          temp.add(currentNode.val);
         if (currentNode.right != null) 
           currentNode = currentNode.right;
         else 
@@ -55,20 +57,10 @@ public class BoundaryTraversal {
     }
     private static void addLeaves(TreeNode root, List<Integer> result) {
       if (isNodeLeaf(root)) {
-        result.add(root.data);
+        result.add(root.val);
         return;
       }
       if (root.left != null) addLeaves(root.left, result);
       if (root.right != null) addLeaves(root.right, result);
     }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
 }

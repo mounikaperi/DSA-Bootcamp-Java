@@ -1,6 +1,6 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
 
-public class Main {
+public class BinaryTreeMaximumPathSum {
     // https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
     static int ans = Integer.MIN_VALUE;
     public static void main(String[] args) {
@@ -23,14 +23,4 @@ public class Main {
       ans = Math.max(ans, left + right + node.val);
       return Math.max(left, right) + node.val;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

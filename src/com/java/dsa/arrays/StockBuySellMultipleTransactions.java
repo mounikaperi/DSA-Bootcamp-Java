@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.arrays;
 
 public class StockBuySellMultipleTransactions {
     public static void main(String[] args) {

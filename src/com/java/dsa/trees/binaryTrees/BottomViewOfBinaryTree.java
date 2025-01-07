@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class BottomViewOfBinaryTree {
@@ -27,7 +29,7 @@ public class BottomViewOfBinaryTree {
             Pair pair = q.poll();
             TreeNode node = pair.node;
             int level = pair.level;
-            mpp.put(level, node.data);
+            mpp.put(level, node.val);
             if (node.left != null)  q.add(new Pair(node.left, level - 1));
             if (node.right != null) q.add(new Pair(node.right, level + 1));
         }
@@ -36,22 +38,4 @@ public class BottomViewOfBinaryTree {
         }
         return ans;
     }
-}
-class Pair {
-  TreeNode node;
-  int level;
-  public Pair(TreeNode node, int level) {
-    this.node = node;
-    this.level = level;
-  }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  public TreeNode(int data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
 }

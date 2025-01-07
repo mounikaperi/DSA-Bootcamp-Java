@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 import java.util.Arrays;
 public class MoveZerosToEnd {
 	public static void main(String[] args) {

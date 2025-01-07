@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 import java.util.Stack;
 public class IsPalindrome {
 	public static void main(String[] args) {
@@ -72,16 +74,4 @@ public class IsPalindrome {
 	    reverseLinkedList(newHead);
 	    return true;
 	}
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
 }

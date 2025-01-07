@@ -1,5 +1,4 @@
-                                    
-import java.util.*;
+package com.java.dsa.binarySearch;
 
 class MedianOfRowCol {
     static int upperBound(int[] arr, int x, int n) {

@@ -1,3 +1,5 @@
+package com.java.dsa.sorting;
+
 import java.util.*;
 public class RecursiveInsertionSort {
     static void insertionSort(int[] arr, int i, int n) {

@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 import java.io.PrintStream;
 public class SerializationNDeserializationOfBinaryTree {
@@ -98,10 +100,4 @@ public class SerializationNDeserializationOfBinaryTree {
         traversePreOrder(sb, "", "", node);
         os.print(sb.toString());
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int x) { val = x; }
 }

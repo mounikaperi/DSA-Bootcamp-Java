@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class DeleteNodeInBST {
     // https://leetcode.com/problems/delete-node-in-a-bst/
@@ -62,17 +62,4 @@ public class DeleteNodeInBST {
       root = root.right;
       return root;
     }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int data) {
-    this.data = data;
-  }
-  TreeNode(int data, TreeNode left, TreeNode right) {
-    this.data = data;
-    this.left = left;
-    this.right = right;
-  }
 }

@@ -1,10 +1,12 @@
-class DeleteNodeInDoubleLinkedList {
-    public Node deleteNode(Node head, int x) {
+package com.java.dsa.linkedLists;
+
+public class DeleteNodeInDoubleLinkedList {
+    public DoubleLinkedListNode deleteNode(DoubleLinkedListNode head, int x) {
         // if head is null linkedlist is empty nothing to delete
         if (head == null) return null;
         // if head is the only node in the list delete it 
         if (head.prev == null && head.next == null) return null;
-        Node temp = head;
+        DoubleLinkedListNode temp = head;
         for (int i=1; i<x; i++) {
             temp = temp.next;
         }

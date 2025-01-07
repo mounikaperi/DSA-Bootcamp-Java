@@ -1,3 +1,4 @@
+package com.java.dsa.arrays;
 public class FindMissingNumber {
 	public static void main(String[] args) {
 		// https://leetcode.com/problems/missing-number/description/

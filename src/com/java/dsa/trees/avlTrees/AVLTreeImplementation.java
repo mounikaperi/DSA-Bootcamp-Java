@@ -1,3 +1,5 @@
+package com.java.dsa.trees.avlTrees;
+
 public class AVLTreeImplementation {
     public static void main(String[] args) {
         AVLTrees tree = new AVLTrees();

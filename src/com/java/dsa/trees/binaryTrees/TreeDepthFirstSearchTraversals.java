@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.List;
 import java.util.ArrayList;
 public class TreeDepthFirstSearchTraversals {
@@ -39,40 +41,20 @@ public class TreeDepthFirstSearchTraversals {
     }
     private static void getPreorderTraversal(TreeNode root, List<Integer> list) {
         if (root == null) return;
-        list.add(root.data);
+        list.add(root.val);
         getPreorderTraversal(root.left, list);
         getPreorderTraversal(root.right, list);
     }
     private static void getInorderTraversal(TreeNode root, List<Integer> list) {
         if (root == null) return;
         getInorderTraversal(root.left, list);
-        list.add(root.data);
+        list.add(root.val);
         getInorderTraversal(root.right, list);
     }
     private static void getPostorderTraversal(TreeNode root, List<Integer> list) {
         if (root == null) return;
         getPostorderTraversal(root.left, list);
         getPostorderTraversal(root.right, list);
-        list.add(root.data);
+        list.add(root.val);
     }
-}
-class TreeNode {
-     int data;
-     TreeNode left;
-     TreeNode right;
-     TreeNode() {
-         this.data = 0;
-         this.left = null;
-         this.right = null;
-     }
-     TreeNode(int data) {
-         this.data = data;
-         this.left = null;
-         this.right = null;
-     }
-     TreeNode(int data, TreeNode left, TreeNode right) {
-         this.data = data;
-         this.left = left;
-         this.right = right;
-     }
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class KthSmallestElementInBinarySearchTree {
     static int count = 0;
@@ -24,15 +24,5 @@ public class KthSmallestElementInBinarySearchTree {
     if (count == k) return root;
     TreeNode right = helper(root.right, k);
     return right;
-  }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = left;
-    this.right = right;
   }
 }

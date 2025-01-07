@@ -1,5 +1,4 @@
-
-import java.util.*;
+package com.java.dsa.arrays;
 class RotateArrayBy90Deg {
     /**
      * [Naive Approach] Using Extra Space - O(n^2) Time and O(n^2) Space
@@ -17,7 +16,7 @@ class RotateArrayBy90Deg {
         int[][] result = new int[n][n];
         for (int i=0; i<n; i++) {
             for (int j=0; j<n; j++) {
-                result[n-j-1] = matrix[i][j];
+                result[n-j-1][i] = matrix[i][j];
             }
         }
         // copy the rotated matrix back to original matrix
@@ -37,7 +36,7 @@ class RotateArrayBy90Deg {
 
 
     static void rotateMatrixoptimal1(int[][] matrix) {
-        int n = matrix.length;000
+        int n = matrix.length;
         for (int i=0; i<(n/2); i++) {
             for (int j=i; j<n-i-1; j++) {
                 int temp = matrix[i][j];
@@ -95,7 +94,7 @@ class RotateArrayBy90Deg {
             System.out.println();
         }
 
-        arr[][] =  {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        arr = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         rotateMatrixoptimal1(arr);
         System.out.println("Rotated Image");
         for (int i = 0; i < arr.length; i++) {
@@ -105,8 +104,8 @@ class RotateArrayBy90Deg {
             System.out.println();
         }
 
-        arr[][] =  {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        rotateMatrixoptimal2(arr);
+        arr = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        reverseMatrixOptimal2(arr);
         System.out.println("Rotated Image");
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {

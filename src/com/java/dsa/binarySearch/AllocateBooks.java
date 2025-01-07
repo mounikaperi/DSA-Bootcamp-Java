@@ -1,3 +1,5 @@
+package com.java.dsa.binarySearch;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Collections;

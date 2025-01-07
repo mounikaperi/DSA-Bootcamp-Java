@@ -1,29 +1,31 @@
+package com.java.dsa.linkedLists;
+
 public class MergeTwoSortedLinkedLists {
 	public static void main(String[] args) {
 	    // https://leetcode.com/problems/merge-two-sorted-lists/description/
-		ListNode head1 = new ListNode(1);
-		head1.next = new ListNode(2);
-		head1.next.next = new ListNode(3);
-		head1.next.next.next = new ListNode(4);
-		head1.next.next.next.next = new ListNode(5);
-		
-		ListNode head2 = new ListNode(6);
-		head2.next = new ListNode(7);
-		head2.next.next = new ListNode(8);
-		head2.next.next.next = new ListNode(9);
-		head2.next.next.next.next = new ListNode(10);
-		ListNode result = mergeTwoLists(head1, head2);
+		Node head1 = new Node(1);
+		head1.next = new Node(2);
+		head1.next.next = new Node(3);
+		head1.next.next.next = new Node(4);
+		head1.next.next.next.next = new Node(5);
+
+		Node head2 = new Node(6);
+		head2.next = new Node(7);
+		head2.next.next = new Node(8);
+		head2.next.next.next = new Node(9);
+		head2.next.next.next.next = new Node(10);
+		Node result = mergeTwoLists(head1, head2);
 		while (result != null) {
-		    System.out.print(result.val + "->");
+		    System.out.print(result.data + "->");
 		    result = result.next;
 		}
 		System.out.println();
 	}
-	private static ListNode mergeTwoLists(ListNode head1, ListNode head2) {
-	    ListNode dummyNode = new ListNode(-1);
-	    ListNode newHead = dummyNode;
+	private static Node mergeTwoLists(Node head1, Node head2) {
+		Node dummyNode = new Node(-1);
+		Node newHead = dummyNode;
 	    while (head1 != null && head2 != null) {
-	        if (head1.val <= head2.val) {
+	        if (head1.data <= head2.data) {
 	            newHead.next = head1;
 	            head1 = head1.next;
 	        } else {
@@ -36,11 +38,4 @@ public class MergeTwoSortedLinkedLists {
 	    newHead.next = (head1 == null) ? head2 : head1;
 	    return dummyNode.next;
 	}
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

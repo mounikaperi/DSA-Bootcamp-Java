@@ -1,6 +1,6 @@
-import java.util.*;
+package com.java.dsa.arrays;
 
-public class Main {
+public class KandanesAlgorithm {
     public static void main(String[] args) {
      // https://leetcode.com/problems/maximum-subarray/
       int[] nums = {-2,1,-3,4,-1,2,1,-5,4};

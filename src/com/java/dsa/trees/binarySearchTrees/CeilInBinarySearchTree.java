@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class CeilInBinarySearchTree {
     public static void main(String[] args) {
@@ -27,17 +27,4 @@ public class CeilInBinarySearchTree {
       }
       return ceil;
     }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int data) {
-    this.data = data;
-  }
-  TreeNode(int data, TreeNode left, TreeNode right) {
-    this.data = data;
-    this.left = left;
-    this.right = right;
-  }
 }

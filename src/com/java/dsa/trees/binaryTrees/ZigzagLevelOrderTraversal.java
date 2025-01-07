@@ -1,8 +1,10 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
-public class Main {
+public class ZigzagLevelOrderTraversal {
 	public static void main(String[] args) {
 	    // https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 		TreeNode root = new TreeNode(3);
@@ -44,15 +46,5 @@ public class Main {
             result.add(currentLevel);
         }
         return result;
-    }
-}
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
     }
 }

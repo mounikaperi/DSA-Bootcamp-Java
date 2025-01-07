@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 import java.util.Map;
 import java.util.HashMap;
 public class DetectLoopInLinkedList {
@@ -47,15 +49,4 @@ public class DetectLoopInLinkedList {
 	    }
 	    return false;
 	}
-}
-class Node {
-    public int data;
-    public Node next;
-    public Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-    public Node(int data) {
-        this.data = data;
-    }
 }

@@ -1,3 +1,4 @@
+package com.java.dsa.arrays;
 public class MaxCountOfConsecutiveOnes {
 	public static void main(String[] args) {
 	    int[] arr = {1, 1, 0, 1, 1, 1};

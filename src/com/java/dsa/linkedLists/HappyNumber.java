@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 // leetcode 202
 public class HappyNumber {
     public static void main(String[] args) {

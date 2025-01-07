@@ -1,3 +1,5 @@
+package com.java.dsa.recursion;
+
 public class RemoveSubstringFromInput {
 	public static void main(String[] args) {
 		String s = "bcapplebcdrfhaaa";

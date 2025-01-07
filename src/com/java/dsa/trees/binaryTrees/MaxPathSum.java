@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class MaxPathSum {
@@ -28,14 +30,4 @@ public class MaxPathSum {
         ans = Math.max(ans, pathSum);
         return Math.max(left, right) + node.val;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

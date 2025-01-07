@@ -1,6 +1,8 @@
+package com.java.dsa.linkedLists;
+
 import java.util.Stack;
 public class ReverseLinkedList {
-	https://leetcode.com/problems/reverse-linked-list/description/
+	// https://leetcode.com/problems/reverse-linked-list/description/
 	public static void main(String[] args) {
 		Node head = new Node(1);
 		head.next = new Node(3);
@@ -59,15 +61,4 @@ public class ReverseLinkedList {
 	    head.next = null;
 	    return newHead;
 	}
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = null;
-    }
-    Node(int data) {
-        this.data = data;
-    }
 }

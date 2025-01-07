@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 import java.util.Map;
 import java.util.HashMap;
 public class LengthOfLoop {
@@ -58,16 +60,4 @@ public class LengthOfLoop {
 	    }
 	    return 0;
 	}
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
 }

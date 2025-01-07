@@ -1,3 +1,5 @@
+package com.java.dsa.strings;
+
 class ImplementAtoi {
   public static void main(String[] args) {
     String s = "-123";
@@ -21,5 +23,4 @@ class ImplementAtoi {
         }
         return sign * (int) num;
     }
-}
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
 
 public class BinaryTreesIdentical {
     // https://leetcode.com/problems/same-tree/description/
@@ -23,17 +23,8 @@ public class BinaryTreesIdentical {
       if (node1 == null && node2 == null) return true;
       if (node1 == null || node2 == null) return false;
       return (
-        (node1.data == node2.data) && isIdentical(node1.left, node2.left) && isIdentical(node1.right, node2.right)
+        (node1.val == node2.val) && isIdentical(node1.left, node2.left) && isIdentical(node1.right, node2.right)
         );
     }
 }
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  public TreeNode(int val) {
-    data = val;
-    left = null;
-    right = null;
-  }
-}
+

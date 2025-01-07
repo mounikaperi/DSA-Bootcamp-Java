@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class SortedArrayToBinarySearchTree {
     public static void main(String[] args) {
@@ -17,14 +17,4 @@ public class SortedArrayToBinarySearchTree {
       root.right = populateSorted(nums, mid+1, end);
       return root;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

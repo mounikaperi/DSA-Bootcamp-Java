@@ -1,3 +1,5 @@
+package com.java.dsa.strings;
+
 import java.util.*;
 
 public class RunLengthEncoding {

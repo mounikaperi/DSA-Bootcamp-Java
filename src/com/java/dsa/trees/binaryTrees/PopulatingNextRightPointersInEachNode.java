@@ -1,18 +1,20 @@
+package com.java.dsa.trees.binaryTrees;
+
 public class PopulatingNextRightPointersInEachNode {
 	public static void main(String[] args) {
 	    // https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
-		TreeNode root = new TreeNode(3);
-		root.left = new TreeNode(9);
-		root.right = new TreeNode(20);
-		root.right.left = new TreeNode(15);
-		root.right.right = new TreeNode(7);
-		TreeNode result = connect(root);
+		TreeNode1 root = new TreeNode1(3);
+		root.left = new TreeNode1(9);
+		root.right = new TreeNode1(20);
+		root.right.left = new TreeNode1(15);
+		root.right.right = new TreeNode1(7);
+		TreeNode1 result = connect(root);
 	}
-	private static TreeNode connect(TreeNode root) {
+	private static TreeNode1 connect(TreeNode1 root) {
 	    if (root == null) return null;
-	    TreeNode leftMost = root;
+		TreeNode1 leftMost = root;
 	    while (leftMost.left != null) {
-	        TreeNode current = leftMost; // traverse level wise here from left to right
+			TreeNode1 current = leftMost; // traverse level wise here from left to right
 	        while (current != null) {   
 	            current.left.next = current.right;
 	            if (current.next != null) {
@@ -25,12 +27,12 @@ public class PopulatingNextRightPointersInEachNode {
 	    return root;
 	}
 }
-class TreeNode {
+class TreeNode1 {
     int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode next;
-    TreeNode(int val) {
+	TreeNode1 left;
+	TreeNode1 right;
+	TreeNode1 next;
+	TreeNode1(int val) {
         this.val = val;
         this.left = null;
         this.right = null;

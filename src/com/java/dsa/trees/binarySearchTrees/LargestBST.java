@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class LargestBST {
     static TreeNode prev = null, first = null, second = null;
@@ -39,16 +39,4 @@ class Pair {
         this.max = max;
         this.min = min;
     }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  TreeNode() {}
-  TreeNode(int data) { this.data = data; }
-  TreeNode(int data, TreeNode left, TreeNode right) {
-  this.data = data;
-  this.left = left;
-  this.right = right;
-  }
 }

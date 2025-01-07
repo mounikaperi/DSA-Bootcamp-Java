@@ -1,3 +1,5 @@
+package com.java.dsa.binarySearch;
+
 public class MedianOfTwoSortedArrays {
    public static void main(String[] args) {
           int[] a = {1, 4, 7, 10, 12};

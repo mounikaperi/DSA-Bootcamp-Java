@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 import java.util.HashMap;
 public class StartingPointInLoop {
 	public static void main(String[] args) {
@@ -54,16 +56,4 @@ public class StartingPointInLoop {
 	    }
 	    return null;
 	}
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
 }

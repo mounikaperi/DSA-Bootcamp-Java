@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
@@ -18,7 +20,7 @@ public class TreeBreadthFirstSearchTraversals {
 		    System.out.println();
 		}
         System.out.println("---------------------------");
-        List<List<Integer>> result = levelOrderViaRecursion(root);
+        result = levelOrderViaRecursion(root);
 		for (List<Integer> list : result) {
 		    for (int value: list) {
 		        System.out.print(value + " ");

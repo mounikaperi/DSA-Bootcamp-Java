@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binarySearchTrees;
 
 public class RecoverBST {
     static TreeNode prev = null, first = null, second = null;
@@ -12,7 +12,7 @@ public class RecoverBST {
     private static void inorder(TreeNode root){
       if(root==null) return ;
       inorder(root.left);
-      if(prev!=null && root.val<prev.val){
+      if(prev!=null && root.data<prev.data){
         if(first==null)
           first=prev;
         second=root;
@@ -23,21 +23,8 @@ public class RecoverBST {
     private static void recoverTree(TreeNode root) {
       if (root==null) return ; 
       inorder(root);
-      int temp=first.val;
-      first.val=second.val;
-      second.val=temp;
+      int temp=first.data;
+      first.data=second.data;
+      second.data=temp;
     }
-}
-
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode() {}
-  TreeNode(int val) { this.val = val; }
-  TreeNode(int val, TreeNode left, TreeNode right) {
-  this.val = val;
-  this.left = left;
-  this.right = right;
-  }
 }

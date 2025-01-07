@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class RootToLeafNodePath {
@@ -29,22 +31,22 @@ public class RootToLeafNodePath {
     }
     private static boolean getPath(TreeNode root, List<Integer> result, int key) {
       if (root == null) return false;
-      result.add(root.data);
-      if (root.data == key) return true;
+      result.add(root.val);
+      if (root.val == key) return true;
       if (getPath(root.left, result, key) || getPath(root.right, result, key)) return true;
       // if key is not found then
       result.remove(result.size()-1);
       return false;
     }
     // if there are multiple paths to reach to the leaf node
-    public static ArrayList<ArrayList<Integer>> Paths(Node root) {
+    public static ArrayList<ArrayList<Integer>> Paths(TreeNode root) {
         ArrayList<ArrayList<Integer>> result = new ArrayList<>();
         getPath(root, new ArrayList<>(), result);
         return result;
     }
-    private static void getPath(Node root, ArrayList<Integer> path, ArrayList<ArrayList<Integer>> result) {
+    private static void getPath(TreeNode root, ArrayList<Integer> path, ArrayList<ArrayList<Integer>> result) {
         if (root == null) return;
-        path.add(root.data);
+        path.add(root.val);
         if (root.left == null && root.right == null)
             result.add(new ArrayList<>(path));  
         getPath(root.left, new ArrayList<>(path), result);
@@ -52,14 +54,4 @@ public class RootToLeafNodePath {
         // if no path found to leaf node then remove the root that is added
         path.remove(path.size()-1);
     }
-}
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  public TreeNode(int data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
 }

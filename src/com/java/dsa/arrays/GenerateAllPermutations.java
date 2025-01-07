@@ -1,3 +1,11 @@
+package com.java.dsa.arrays;
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class GenerateAllPermutations {
     static void nextPermutation(int[] arr) {
         List<int[]> res = new ArrayList<>();

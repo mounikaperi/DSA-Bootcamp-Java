@@ -1,3 +1,5 @@
+package com.java.dsa.recursion;
+
 class RemoveInputCharacterFromString {
     public static void main(String[] args) {
         String s = "bcaaadrfhaaa";

@@ -1,6 +1,8 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
-public class ConstructBinarytreeFromPreOrderNInorder {
+public class ConstructBinaryTreeFromPreOrderNInorder {
     static int count = 0;
     public static void main(String[] args) {
       // https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
@@ -22,15 +24,5 @@ public class ConstructBinarytreeFromPreOrderNInorder {
     // // right nodes in preorder will be from indexOfRootInInorder+1 till end and right nodes in inorder will be from indexOfRootInInorder+1 till end
     root.right = constructBinaryTree(Arrays.copyOfRange(preorder, rootIndex+1, preorder.length), Arrays.copyOfRange(inorder, rootIndex+1, inorder.length));
     return root;
-  }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = left;
-    this.right = right;
   }
 }

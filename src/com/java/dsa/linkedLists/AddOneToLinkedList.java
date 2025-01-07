@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 public class AddOneToLinkedList {
 	public static void main(String[] args) {
 		Node head = new Node(3);
@@ -46,17 +48,5 @@ public class AddOneToLinkedList {
             temp = temp.next; 
         }
         System.out.println();
-    }
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data1, Node next1) {
-        data = data1;
-        next = next1;
-    }
-    Node(int data1) {
-        data = data1;
-        next = null;
     }
 }

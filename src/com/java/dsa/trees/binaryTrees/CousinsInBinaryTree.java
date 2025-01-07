@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Queue;
@@ -39,15 +41,5 @@ public class CousinsInBinaryTree {
         return (
             (node.left == xx && node.right == yy) || (node.left == yy && node.right == xx) || isSibling(node.left, xx, yy) || isSibling(node.right, xx, yy)
         );
-    }
-}
-class TreeNode {    
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
     }
 }

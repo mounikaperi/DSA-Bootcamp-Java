@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class IsBTBalanced {
@@ -22,14 +24,4 @@ public class IsBTBalanced {
         if (Math.abs(leftHeight - rightHeight) > 1) return -1;
         return Math.max(leftHeight,  rightHeight) + 1;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

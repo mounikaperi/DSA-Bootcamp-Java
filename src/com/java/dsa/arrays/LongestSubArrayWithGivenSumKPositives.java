@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 import java.util.Map;
 import java.util.HashMap;
 public class LongestSubArrayWithGivenSumKPositives {

@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 import java.util.Arrays;
 public class RotationOfArrays {
 	// https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/article/MjM5OA%3D%3D

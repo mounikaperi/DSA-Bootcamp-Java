@@ -1,3 +1,5 @@
+package com.java.dsa.strings;
+
 class AddBinaryStrings {
   public static void main(String[] args) {
     String s1 = "1101", s2 = "111";
@@ -7,7 +9,7 @@ class AddBinaryStrings {
   private static String addBinary(String s1, String s2) {
     StringBuilder result = new StringBuilder();
     s1 = trimLeadingZeros(s1);
-    s2 = trimLeadingZeros(S2);
+    s2 = trimLeadingZeros(s2);
     int n = s1.length();
     int m = s2.length();
     if (n < m) return addBinary(s2, s1);
@@ -29,7 +31,7 @@ class AddBinaryStrings {
             result.append('1');
     return result.reverse().toString();
   }
-  String trimLeadingZeros(String s) {
+  static String trimLeadingZeros(String s) {
     int firstOne = s.indexOf('1');
     return (firstOne == -1) ? "0": s.substring(firstOne);
   }

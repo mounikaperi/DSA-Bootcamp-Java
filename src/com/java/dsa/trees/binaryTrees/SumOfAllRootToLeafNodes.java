@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class SumOfAllRootToLeafNodes {
@@ -23,14 +25,4 @@ public class SumOfAllRootToLeafNodes {
       if (node.left == null && node.right == null) return sum;
       return helper(node.left, sum) + helper(node.right, sum);
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 import java.util.List;
 import java.util.ArrayList;
 public class UnionOfTwoArrays {

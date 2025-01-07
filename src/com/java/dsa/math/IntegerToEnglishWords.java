@@ -1,3 +1,5 @@
+package com.java.dsa.math;
+
 public class IntegerToEnglishWords {
     private static  String[] belowTwenty = {
 	      "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven",

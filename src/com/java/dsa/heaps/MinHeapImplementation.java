@@ -1,3 +1,5 @@
+package com.java.dsa.heaps;
+
 import java.util.*;
 
 public class MinHeapImplementation {

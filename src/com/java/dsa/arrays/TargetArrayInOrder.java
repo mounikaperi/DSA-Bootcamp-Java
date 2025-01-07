@@ -1,6 +1,8 @@
+package com.java.dsa.arrays;
+
 import java.util.*;
 
-class CreateTargetInOrder {
+public class TargetArrayInOrder {
     public static void main(String[] args) {
         // https://leetcode.com/problems/create-target-array-in-the-given-order/description/
         int[] arr = {0,1,2,3,4};

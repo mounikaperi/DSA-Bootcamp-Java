@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class VerticalTraversal {
@@ -25,10 +27,10 @@ public class VerticalTraversal {
     }
     private static List<List<Integer>> findVertical(TreeNode root) {
       TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
-      Queue<Pair> queue = new LinkedList<Pair>();
-      queue.offer(new Pair(root, 0, 0));
+      Queue<Pair1> queue = new LinkedList<Pair1>();
+      queue.offer(new Pair1(root, 0, 0));
       while (!queue.isEmpty()) {
-        Pair pair = queue.poll();
+        Pair1 pair = queue.poll();
         TreeNode node = pair.node;
         int vertical = pair.vertical;
         int level = pair.level;
@@ -38,11 +40,11 @@ public class VerticalTraversal {
         if (!map.get(vertical).containsKey(level)) {
           map.get(vertical).put(level, new PriorityQueue<>());
         }
-        map.get(vertical).get(level).offer(node.data);
+        map.get(vertical).get(level).offer(node.val);
         if (node.left != null)
-          queue.offer(new Pair(node.left, vertical-1, level+1));
+          queue.offer(new Pair1(node.left, vertical-1, level+1));
         if (node.right != null)
-          queue.offer(new Pair(node.right, vertical+1, level+1));
+          queue.offer(new Pair1(node.right, vertical+1, level+1));
       }
       List<List<Integer>> list = new ArrayList<>();
       for (TreeMap<Integer, PriorityQueue<Integer>> ys: map.values()) {
@@ -56,21 +58,11 @@ public class VerticalTraversal {
       return list;
     }
 }
-class TreeNode {
-  int data;
-  TreeNode left;
-  TreeNode right;
-  public TreeNode(int data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
-}
-class Pair {
+class Pair1 {
   TreeNode node;
   int vertical;
   int level;
-  public Pair(TreeNode node, int vertical, int level) {
+  public Pair1(TreeNode node, int vertical, int level) {
     this.node = node;
     this.vertical = vertical;
     this.level = level;

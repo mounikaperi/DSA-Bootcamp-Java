@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 public class FindMiddleNode {
 	public static void main(String[] args) {
 		// https://leetcode.com/problems/middle-of-the-linked-list/description/
@@ -18,15 +20,4 @@ public class FindMiddleNode {
 	    }
 	    return slow;
 	}
-}
-class Node {
-    int data;
-    Node next;
-    Node(int data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-    Node(int data) {
-        this.data = data;
-    }
 }

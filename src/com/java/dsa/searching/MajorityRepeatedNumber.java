@@ -1,3 +1,5 @@
+package com.java.dsa.searching;
+
 import java.util.*;
 
 public class MajorityRepeatedNumber {

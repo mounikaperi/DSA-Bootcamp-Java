@@ -1,3 +1,4 @@
+package com.java.dsa.binarySearch;
 
 import java.util.*;
 

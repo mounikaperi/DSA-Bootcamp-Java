@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
 
 public class DiameterOfBinaryTree {
     static int diameter = 0;
@@ -25,14 +25,4 @@ public class DiameterOfBinaryTree {
       diameter = Math.max(dia, diameter);
       return Math.max(leftHeight, rightHeight) + 1;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

@@ -1,3 +1,5 @@
+package com.java.dsa.recursion;
+
 import java.util.*;
 
 public class GCD {

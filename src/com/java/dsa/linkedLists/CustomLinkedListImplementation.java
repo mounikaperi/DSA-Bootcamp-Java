@@ -1,3 +1,5 @@
+package com.java.dsa.linkedLists;
+
 public class CustomLinkedListImplementation {
 	public static void main(String[] args) {
 	    CustomLinkedList linkedList = new CustomLinkedList();
@@ -15,7 +17,7 @@ public class CustomLinkedListImplementation {
 	    linkedList.display();
 	    System.out.println("The value that is deleted is: " + linkedList.deleteAtIndex(3));
 	    linkedList.display();
-        insertUsingRecurion(2, 2);
+        linkedList.insertUsingRecursion(2, 2);
 	    linkedList.display();
 	}
 }
@@ -62,8 +64,8 @@ class CustomLinkedList {
         temp.next = node;
         size++;
     }
-    public void insertUsingRecurion(int index, int value) {
-        head = insertUsingRecurion(value, index, head);
+    public void insertUsingRecursion(int index, int value) {
+        head = insertUsingRecursion(value, index, head);
     }
     private Node insertUsingRecursion(int value, int index, Node node) {
         if (index == 0) {
@@ -71,7 +73,7 @@ class CustomLinkedList {
             size++;
             return temp;
         }
-        node.next = insertUsingRecurion(value, index--, node.next);
+        node.next = insertUsingRecursion(value, index--, node.next);
         return node;
     }
     public void display() {

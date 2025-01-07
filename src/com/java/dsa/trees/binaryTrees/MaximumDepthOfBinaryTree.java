@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class MaximumDepthOfBinaryTree {
@@ -18,14 +20,4 @@ public class MaximumDepthOfBinaryTree {
       int right = maxDepth(node.right);
       return Math.max(left, right) + 1;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

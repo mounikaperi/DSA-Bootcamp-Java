@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binaryTrees;
+
 import java.util.*;
 
 public class LowestCommonAncestor {
@@ -21,15 +23,5 @@ public class LowestCommonAncestor {
     TreeNode right = findLowestCommonAncestor(root.right, p, q);
     if (left != null && right != null) return root;
     return (left == null) ? right : left;
-  }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = left;
-    this.right = right;
   }
 }

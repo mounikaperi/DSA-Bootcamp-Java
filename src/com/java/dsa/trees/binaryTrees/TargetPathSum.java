@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
 
 public class TargetPathSum {
     public static void main(String[] args) {
@@ -19,14 +19,4 @@ public class TargetPathSum {
       if (node.val == targetSum && node.left == null && node.right == null) return true;
       return hasPathSum(node.left, targetSum-node.val) || hasPathSum(node.right, targetSum-node.val);
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

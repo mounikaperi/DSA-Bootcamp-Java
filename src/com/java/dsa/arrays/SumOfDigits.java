@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 class SumOfDigits {
   public static void main(String[] args) {
     int value = 98;
@@ -17,7 +19,7 @@ class SumOfDigits {
     }
     return sum;
   }
-  private static int getSumOptimal(int value) {
+  private static int getSumOptimal(int n) {
     /**
      * Every number in the decimal system  can be expressed as sum of digits
      * multipled by powers of 10 

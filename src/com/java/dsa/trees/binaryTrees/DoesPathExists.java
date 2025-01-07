@@ -1,4 +1,5 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
+
 
 public class DoesPathExists {
     public static void main(String[] args) {
@@ -21,14 +22,4 @@ public class DoesPathExists {
       if (node.left == null && node.right == null && index == arr.length-1) return true;
       return helper(node.left, arr, index+1) || helper(node.right, arr, index+1);
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

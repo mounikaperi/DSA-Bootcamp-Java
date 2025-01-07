@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binarySearchTrees;
+
 import java.util.*;
 
 public class BinarySearchTreeIterator {
@@ -20,18 +22,6 @@ public class BinarySearchTreeIterator {
     }
 }
 
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode() {}
-  TreeNode(int val) { this.val = val; }
-  TreeNode(int val, TreeNode left, TreeNode right) {
-  this.val = val;
-  this.left = left;
-  this.right = right;
-  }
-}
 // class BSTIterator {
 //     private Stack<TreeNode> stack = new Stack<TreeNode>();
 
@@ -61,7 +51,7 @@ class BSTIterator {
             return ;
         }
         inOrder(root.left);
-        l1.add(root.val);
+        l1.add(root.data);
         inOrder(root.right);
     }
     public BSTIterator(TreeNode root) {

@@ -1,5 +1,4 @@
-import java.util.*;
-
+package com.java.dsa.arrays;
 public class MissingRepeatingNumber {
   public static void main(String[] args) {
     int[] a = {3, 1, 2, 5, 4, 6, 7, 5};

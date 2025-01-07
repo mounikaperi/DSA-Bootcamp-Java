@@ -1,3 +1,5 @@
+package com.java.dsa.trees.binarySearchTrees;
+
 public class BinarySearchTreeImplementation {
 	public static void main(String[] args) {
 		BinarySearchTree bst = new BinarySearchTree();

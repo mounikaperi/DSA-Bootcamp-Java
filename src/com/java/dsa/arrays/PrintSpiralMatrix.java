@@ -1,3 +1,5 @@
+package com.java.dsa.arrays;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ public class PrintSpiralMatrix {
         // List to store the spiral order elements
         ArrayList<Integer> result = new ArrayList<>();
         // 2D array to keep track of visited cells
-        boolean[] visited = new boolean[m][n];
+        boolean[][] visited = new boolean[m][n];
         // change the row index for each direction
         int[] dr = {0, 1, 0, -1};
         // change the column index for each direction
@@ -18,7 +20,7 @@ public class PrintSpiralMatrix {
         int index = 0;
         // Iterate through all the elements in the matrix
         for (int i=0; i<(m*n); ++i) {
-            res.add(mat[r][c]); // add current element to the result list
+            result.add(matrix[r][c]); // add current element to the result list
             visited[r][c] = true; // Mark current cell as visited
             int newRow = r + dr[index]; // calculate the next cell coordinates based on current direction
             int newCol = c + dc[index]; 
@@ -31,7 +33,7 @@ public class PrintSpiralMatrix {
                 c += dc[index];
             }
         }
-        return res;
+        return result;
     }
 
     public static List<Integer> printSpiral(int[][] mat) {

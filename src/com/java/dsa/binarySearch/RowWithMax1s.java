@@ -1,3 +1,5 @@
+package com.java.dsa.binarySearch;
+
 import java.io.*;
 import java.util.*;
 

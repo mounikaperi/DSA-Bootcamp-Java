@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.recursion;
 
 public class SumNAvg {
     public static void main(String[] args) {

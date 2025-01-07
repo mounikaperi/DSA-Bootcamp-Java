@@ -1,5 +1,4 @@
-import java.util.*;
-
+package com.java.dsa.arrays;
 public class GameEntryScoreBoard {
     public static void main(String[] args) {
       GameEntry gameEntry1 = new GameEntry("John", 89);

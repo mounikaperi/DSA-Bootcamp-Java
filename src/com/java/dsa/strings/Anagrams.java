@@ -1,3 +1,5 @@
+package com.java.dsa.strings;
+
 import java.util.*;
 public class Anagrams {
   public static String SortString(String str) {

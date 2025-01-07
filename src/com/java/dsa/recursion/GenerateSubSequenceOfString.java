@@ -1,3 +1,5 @@
+package com.java.dsa.recursion;
+
 import java.util.ArrayList;
 public class GenerateSubSequenceOfString {
 	public static void main(String[] args) {

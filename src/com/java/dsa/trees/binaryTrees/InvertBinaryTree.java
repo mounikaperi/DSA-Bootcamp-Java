@@ -1,4 +1,4 @@
-import java.util.*;
+package com.java.dsa.trees.binaryTrees;
 
 public class InvertBinaryTree {
     static int diameter = 0;
@@ -21,14 +21,4 @@ public class InvertBinaryTree {
       node.right = left;
       return node;
     }
-}
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode(int val) {
-    this.val = val;
-    this.left = null;
-    this.right = null;
-  }
 }

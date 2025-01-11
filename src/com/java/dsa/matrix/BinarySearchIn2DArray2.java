@@ -1,4 +1,4 @@
-package com.java.dsa.binarySearch;
+package com.java.dsa.matrix;
 /**
   Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
   Integers in each row are sorted in ascending from left to right.

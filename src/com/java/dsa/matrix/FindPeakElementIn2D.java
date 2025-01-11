@@ -1,4 +1,4 @@
-package com.java.dsa.binarySearch;
+package com.java.dsa.matrix;
 
 // https://leetcode.com/problems/find-a-peak-element-ii/
 class FindPeakElementIn2D {

@@ -11,11 +11,11 @@ public class FlattenBinaryTree {
       root.right.left = new TreeNode(4);
       root.right.right = new TreeNode(3);
       int[] nums = {1, 2, 3, 4, 5, 6};
-      TreeNode root = flattenBinaryTree(nums);
+      TreeNode result = flattenBinaryTree(root);
     }
     private static TreeNode flattenBinaryTree(TreeNode node) {
       if (node == null) return null;
-      TreeNode current = root;
+      TreeNode current = node;
       while (current != null) {
         if (current.left != null) {
           TreeNode rightMost = current.left;
@@ -28,5 +28,6 @@ public class FlattenBinaryTree {
         }
         current = current.right;
       }
+      return current;
     }
 }

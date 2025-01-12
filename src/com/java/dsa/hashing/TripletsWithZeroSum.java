@@ -10,7 +10,7 @@ public class TripletsWithZeroSum {
         for (List<Integer> triplet : res)
             System.out.println(triplet.get(0) + " " + triplet.get(1)
                     + " " + triplet.get(2));
-        res = findTripletsExpected(arr);
+//        res = findTripletsExpected(arr);
         for (List<Integer> triplet : res)
             System.out.println(triplet.get(0) + " " + triplet.get(1)
                     + " " + triplet.get(2));
@@ -31,7 +31,7 @@ public class TripletsWithZeroSum {
         }
         return result;
     }
-    static ArrayList<ArrayList<Integer>> findTripletsExpected(int[] arr) {
-
-    }
+//    static ArrayList<ArrayList<Integer>> findTripletsExpected(int[] arr) {
+//
+//    }
 }

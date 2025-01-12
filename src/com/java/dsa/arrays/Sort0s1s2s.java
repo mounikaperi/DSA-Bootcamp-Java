@@ -20,7 +20,7 @@ public class Sort0s1s2s {
 		int[] arr1 = { 0, 1, 2, 0, 1, 2 };
 		sortArray1(arr1);
 		for (int i = 0; i < n; i++)
-			System.out.print(arr[i] + " ");
+			System.out.print(arr1[i] + " ");
 	}
 	private static void sortArray(ArrayList<Integer> arr, int n) {
 		// DutchNationalFlagAlgorithm

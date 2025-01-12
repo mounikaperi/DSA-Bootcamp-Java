@@ -14,7 +14,7 @@ public class KthSmallestElementInBinarySearchTree {
   }
   private static int kthSmallest(TreeNode root, int k) {
     TreeNode kthSmallestNode = helper(root, k); 
-    return (kthSmallestNode != null) ? kthSmallestNode.val : 0;
+    return (kthSmallestNode != null) ? kthSmallestNode.data : 0;
   }
   private static TreeNode helper(TreeNode root, int k) {
     if (root == null) return null;

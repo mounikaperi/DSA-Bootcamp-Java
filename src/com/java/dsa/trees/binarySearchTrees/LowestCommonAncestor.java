@@ -16,7 +16,7 @@ public class LowestCommonAncestor {
       TreeNode result = lowestCommonAncestor(root, new TreeNode(p), new TreeNode(q));
       System.out.println("lowestCommonAncestor " + result);
     }
-    private static TreeNode lowestCommonAncestor(TreeNode root, TreeNode firstNode, TreeNode secondNode) {
+    private static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) return null;
         if (root == p || root == q) return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);

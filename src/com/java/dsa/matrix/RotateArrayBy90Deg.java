@@ -1,4 +1,4 @@
-package com.java.dsa.arrays;
+package com.java.dsa.matrix;
 class RotateArrayBy90Deg {
     /**
      * [Naive Approach] Using Extra Space - O(n^2) Time and O(n^2) Space

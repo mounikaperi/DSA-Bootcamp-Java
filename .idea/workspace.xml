@@ -449,24 +449,6 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/CountInversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/CountInversions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/MergeOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/sorting/MergeOverlappingIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/arrays/Sort0s1s2s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/arrays/Sort0s1s2s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/hashing/TripletsWithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/hashing/TripletsWithZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/matrix/BinarySearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/matrix/BinarySearchIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/matrix/RotateArrayBy180Deg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/matrix/RotateArrayBy180Deg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/matrix/RotateArrayBy90Deg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/matrix/RotateArrayBy90Deg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/matrix/SetMatrixZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/matrix/SetMatrixZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/LongestHappyPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/LongestHappyPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/LongestPrefixSuffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/LongestPrefixSuffix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/MinCharsToAddForPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/MinCharsToAddForPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/MinimumRepetitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/MinimumRepetitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/RotationStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/RotationStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/SentencePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/SentencePalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/strings/ShortestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/strings/ShortestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/KthSmallestElementInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/KthSmallestElementInBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/LowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/trees/binaryTrees/FlattenBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/trees/binaryTrees/FlattenBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -531,6 +513,7 @@
     "Application.CheckIfSentenceIsPanagram.executor": "Run",
     "Application.ConcatenationOfTwoArrays.executor": "Run",
     "Application.Conversions.executor": "Run",
+    "Application.CountNoOfOccurrencesInSortedArray.executor": "Run",
     "Application.CountPairs.executor": "Run",
     "Application.CreateMatrixWithRowColSum.executor": "Run",
     "Application.CreateSpiralMatrix.executor": "Run",
@@ -566,7 +549,20 @@
     "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FormBiggestNumber">
+  <component name="RunManager" selected="Application.CountNoOfOccurrencesInSortedArray">
+    <configuration name="CountNoOfOccurrencesInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.CountNoOfOccurrencesInSortedArray" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormBiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.FormBiggestNumber" />
       <module name="DSABootcampJava" />
@@ -619,26 +615,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort0s1s2s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.arrays.Sort0s1s2s" />
-      <module name="DSABootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.dsa.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNoOfOccurrencesInSortedArray" />
         <item itemvalue="Application.FormBiggestNumber" />
         <item itemvalue="Application.MinSumOfTwoNumbersInArray" />
         <item itemvalue="Application.MergeOverlappingIntervals" />
         <item itemvalue="Application.HIndex" />
-        <item itemvalue="Application.Sort0s1s2s" />
       </list>
     </recent_temporary>
   </component>

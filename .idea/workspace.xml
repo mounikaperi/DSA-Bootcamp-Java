@@ -517,6 +517,7 @@
     "Application.CountPairs.executor": "Run",
     "Application.CreateMatrixWithRowColSum.executor": "Run",
     "Application.CreateSpiralMatrix.executor": "Run",
+    "Application.FindMinInRotatedSortedArray.executor": "Run",
     "Application.FindUniqueNumberInArray.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.FormBiggestNumber.executor": "Debug",
@@ -549,7 +550,7 @@
     "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountNoOfOccurrencesInSortedArray">
+  <component name="RunManager" selected="Application.FindMinInRotatedSortedArray">
     <configuration name="CountNoOfOccurrencesInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.CountNoOfOccurrencesInSortedArray" />
       <module name="DSABootcampJava" />
@@ -563,12 +564,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormBiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.FormBiggestNumber" />
+    <configuration name="FindMinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.FindMinInRotatedSortedArray" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.sorting.*" />
+          <option name="PATTERN" value="com.java.dsa.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -576,8 +577,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.HIndex" />
+    <configuration name="FormBiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.FormBiggestNumber" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -617,11 +618,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMinInRotatedSortedArray" />
         <item itemvalue="Application.CountNoOfOccurrencesInSortedArray" />
         <item itemvalue="Application.FormBiggestNumber" />
         <item itemvalue="Application.MinSumOfTwoNumbersInArray" />
         <item itemvalue="Application.MergeOverlappingIntervals" />
-        <item itemvalue="Application.HIndex" />
       </list>
     </recent_temporary>
   </component>

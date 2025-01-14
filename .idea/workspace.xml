@@ -448,6 +448,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/node_modules/vary/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -517,6 +518,7 @@
     "Application.CreateMatrixWithRowColSum.executor": "Run",
     "Application.CreateSpiralMatrix.executor": "Run",
     "Application.FindMinInRotatedSortedArray.executor": "Run",
+    "Application.FindPivot.executor": "Run",
     "Application.FindUniqueNumberInArray.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.FormBiggestNumber.executor": "Debug",
@@ -527,6 +529,7 @@
     "Application.LongestHappyPrefix.executor": "Run",
     "Application.LongestPrefixSuffix.executor": "Run",
     "Application.MakingRowColSumsEqual.executor": "Debug",
+    "Application.MedianOfTwoSortedArraysOfSameSize.executor": "Run",
     "Application.MergeOverlappingIntervals.executor": "Debug",
     "Application.MinCharsToAddForPalindrome.executor": "Run",
     "Application.MinSumOfTwoNumbersInArray.executor": "Debug",
@@ -536,6 +539,7 @@
     "Application.RotateArrayBy180Deg.executor": "Run",
     "Application.RotationStrings.executor": "Run",
     "Application.RunningSumOf1D.executor": "Run",
+    "Application.SearchInRotatedSortedArray.executor": "Run",
     "Application.SentencePalindrome.executor": "Run",
     "Application.ShortestPalindrome.executor": "Debug",
     "Application.Sort0s1s2s.executor": "Run",
@@ -549,7 +553,7 @@
     "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArraysOfSameSize">
     <configuration name="CountNoOfOccurrencesInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.CountNoOfOccurrencesInSortedArray" />
       <module name="DSABootcampJava" />
@@ -576,12 +580,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormBiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.FormBiggestNumber" />
+    <configuration name="FindPivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.FindPivot" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.sorting.*" />
+          <option name="PATTERN" value="com.java.dsa.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -589,12 +593,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSumOfTwoNumbersInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.MinSumOfTwoNumbersInArray" />
+    <configuration name="MedianOfTwoSortedArraysOfSameSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.MedianOfTwoSortedArraysOfSameSize" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.sorting.*" />
+          <option name="PATTERN" value="com.java.dsa.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -617,11 +621,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedianOfTwoSortedArraysOfSameSize" />
+        <item itemvalue="Application.FindPivot" />
         <item itemvalue="Application.SearchInRotatedSortedArray" />
         <item itemvalue="Application.FindMinInRotatedSortedArray" />
         <item itemvalue="Application.CountNoOfOccurrencesInSortedArray" />
-        <item itemvalue="Application.FormBiggestNumber" />
-        <item itemvalue="Application.MinSumOfTwoNumbersInArray" />
       </list>
     </recent_temporary>
   </component>

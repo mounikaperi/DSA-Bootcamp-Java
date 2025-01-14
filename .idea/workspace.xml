@@ -977,6 +977,11 @@
           <line>18</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/searching/MedianOfTwoSortedArraysOfSameSize.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/ConstructBSTFromPreorder.java</url>
           <line>26</line>

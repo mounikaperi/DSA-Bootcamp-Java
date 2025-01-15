@@ -449,6 +449,8 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/KokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/KokoEatingBananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquareRootOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/binarySearch/SquareRootOfNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -526,6 +528,7 @@
     "Application.IndexOfFirstMatchedPattern.executor": "Run",
     "Application.IntegerToWords.executor": "Run",
     "Application.KarpRabin.executor": "Run",
+    "Application.KokoEatingBananas.executor": "Run",
     "Application.LongestHappyPrefix.executor": "Run",
     "Application.LongestPrefixSuffix.executor": "Run",
     "Application.MakingRowColSumsEqual.executor": "Debug",
@@ -553,20 +556,7 @@
     "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MedianOfTwoSortedArraysOfSameSize">
-    <configuration name="CountNoOfOccurrencesInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.CountNoOfOccurrencesInSortedArray" />
-      <module name="DSABootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.dsa.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KokoEatingBananas">
     <configuration name="FindMinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.FindMinInRotatedSortedArray" />
       <module name="DSABootcampJava" />
@@ -586,6 +576,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.dsa.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.binarySearch.KokoEatingBananas" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -621,11 +624,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KokoEatingBananas" />
         <item itemvalue="Application.MedianOfTwoSortedArraysOfSameSize" />
         <item itemvalue="Application.FindPivot" />
         <item itemvalue="Application.SearchInRotatedSortedArray" />
         <item itemvalue="Application.FindMinInRotatedSortedArray" />
-        <item itemvalue="Application.CountNoOfOccurrencesInSortedArray" />
       </list>
     </recent_temporary>
   </component>

@@ -4,6 +4,11 @@ public class SquareRootOfNumber {
         int x=8;
         System.out.println("The Square root of " +x+ " is: " + findSquareRoot(x));
     }
+    static int floorSqrt(int n) {
+        int res = 1;
+        while (res * res <= n) res++;
+        return res-1;
+    }
     private static int findSquareRoot(int x) {
         if (x==0 || x==1) return x;
         long low = 1;

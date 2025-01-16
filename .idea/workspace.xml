@@ -449,7 +449,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/hashing/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/hashing/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/hashing/TripletsWithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/hashing/TripletsWithZeroSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -555,20 +555,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/saimo/Projects/DSABootcampJava&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KokoEatingBananas">
-    <configuration name="FindMinInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.FindMinInRotatedSortedArray" />
-      <module name="DSABootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.dsa.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TripletsWithZeroSum">
     <configuration name="FindPivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.searching.FindPivot" />
       <module name="DSABootcampJava" />
@@ -621,13 +608,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TripletsWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.hashing.TripletsWithZeroSum" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TripletsWithZeroSum" />
         <item itemvalue="Application.KokoEatingBananas" />
         <item itemvalue="Application.MedianOfTwoSortedArraysOfSameSize" />
         <item itemvalue="Application.FindPivot" />
         <item itemvalue="Application.SearchInRotatedSortedArray" />
-        <item itemvalue="Application.FindMinInRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>

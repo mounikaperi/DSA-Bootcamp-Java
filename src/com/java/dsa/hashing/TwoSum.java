@@ -10,6 +10,7 @@ public class TwoSum {
 		System.out.println("The indices at which elements sum up to target is: " + Arrays.toString(twoSum(arr, target)));
 		System.out.println("The indices at which elements sum up to target is: " + Arrays.toString(twoSumViaHashing(arr, target)));
 		System.out.println(twoSumViaBinarySearch(arr, target));
+		System.out.println(twoSumViaTwoPointers(arr, target));
 	}
 	private static int[] twoSum(int[] arr, int target) {
 	    int[] ans = new int[2];
@@ -53,6 +54,17 @@ public class TwoSum {
 			if (arr[mid] == target) return true;
 			else if (target > arr[mid]) left = mid + 1;
 			else right = mid - 1;
+		}
+		return false;
+	}
+	static boolean twoSumViaTwoPointers(int[] arr, int target) {
+		Arrays.sort(arr);
+		int leftPointer = 0, rightPointer = arr.length-1;
+		while (leftPointer < rightPointer) {
+			int sum = arr[leftPointer] + arr[rightPointer];
+			if (sum == target) return true;
+			else if (sum > target) rightPointer--;
+			else leftPointer++;
 		}
 		return false;
 	}

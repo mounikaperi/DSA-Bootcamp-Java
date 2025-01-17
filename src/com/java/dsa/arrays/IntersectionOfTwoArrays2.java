@@ -1,16 +1,14 @@
 package com.java.dsa.arrays;
 
-import java.util.Arrays;
-import java.util.Map;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
+
 public class IntersectionOfTwoArrays2 {
     public static void main(String[] args) {
         // https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
         int[] arr1 = {1, 2, 2, 1};
         int[] arr2 = {2, 2};
         System.out.println("intersection-of-two-arrays: " + Arrays.toString(intersection(arr1, arr2)));
+        System.out.println(intersectionWithDuplicates(arr1, arr2));
     }
     private static int[] intersection(int[] nums1, int[] nums2) {
         Map<Integer, Integer> occurrenceTable = new HashMap<>();
@@ -26,5 +24,20 @@ public class IntersectionOfTwoArrays2 {
         }
         int[] resultArray = result.stream().mapToInt(i -> i).toArray();
         return resultArray;
-    }    
+    }
+    public static ArrayList<Integer> intersectionWithDuplicates(int[] a, int[] b) {
+        // code here
+        Set<Integer> resultSet = new HashSet<>();
+        ArrayList<Integer> resultList = new ArrayList<>();
+        for (int i=0; i<a.length; i++) {
+            resultSet.add(a[i]);
+        }
+        for (int i=0; i<b.length; i++) {
+            if (resultSet.contains(b[i])) {
+                resultList.add(b[i]);
+                resultSet.remove(b[i]); // to avoid duplicates
+            }
+        }
+        return resultList;
+    }
 }

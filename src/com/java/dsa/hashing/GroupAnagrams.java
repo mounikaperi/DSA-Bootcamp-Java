@@ -44,6 +44,10 @@ public class GroupAnagrams {
         ArrayList<ArrayList<String>> result = new ArrayList<>();
         Map<String, Integer> map = new HashMap<>();
         for (int i=0; i<arr.length; i++) {
+            // Step1: Generate the hash key of the string
+            // step2: check if the hash key is present in map
+            //        if it is present, add the current string to the list
+            //        if it is not present, create new array list and add to the result and add key to map with result size
             String key = getHash(arr[i]);
             if (!map.containsKey(key)) {
                 map.put(key, result.size());
@@ -54,6 +58,9 @@ public class GroupAnagrams {
         return result;
     }
     static String getHash(String s) {
+        // Step1: create and fill the frequency array with number of occurrences of char's in string
+        // Step2: append the frequency to result and $ after each cell
+        // return the hash
         StringBuilder hash = new StringBuilder();
         int[] freq = new int[MAX_CHAR];
         for (char ch: s.toCharArray())

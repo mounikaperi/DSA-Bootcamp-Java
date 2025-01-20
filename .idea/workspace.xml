@@ -449,6 +449,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/hashing/MaxDistanceBetweenTwoOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/hashing/MaxDistanceBetweenTwoOccurrences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -515,6 +516,7 @@
     "Application.Conversions.executor": "Run",
     "Application.CountNoOfOccurrencesInSortedArray.executor": "Run",
     "Application.CountPairs.executor": "Run",
+    "Application.CountPairsWithAbsDiffK.executor": "Run",
     "Application.CountSubArraysWithXor.executor": "Run",
     "Application.CreateMatrixWithRowColSum.executor": "Run",
     "Application.CreateSpiralMatrix.executor": "Run",
@@ -559,7 +561,20 @@
     "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinDistanceBetweenMinMaxOfArray">
+  <component name="RunManager" selected="Application.CountPairsWithAbsDiffK">
+    <configuration name="CountPairsWithAbsDiffK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.hashing.CountPairsWithAbsDiffK" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountSubArraysWithXor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.hashing.CountSubArraysWithXor" />
       <module name="DSABootcampJava" />
@@ -612,26 +627,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripletsWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.hashing.TripletsWithZeroSum" />
-      <module name="DSABootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.dsa.hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPairsWithAbsDiffK" />
         <item itemvalue="Application.MinDistanceBetweenMinMaxOfArray" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.CountSubArraysWithXor" />
         <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.TripletsWithZeroSum" />
       </list>
     </recent_temporary>
   </component>

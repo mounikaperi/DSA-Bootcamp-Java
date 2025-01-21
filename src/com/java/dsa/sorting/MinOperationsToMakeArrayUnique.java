@@ -49,7 +49,6 @@ public class MinOperationsToMakeArrayUnique {
                 freq[num] = 1;
             }
         }
-
         return cnt;
     }
 }

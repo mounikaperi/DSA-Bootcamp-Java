@@ -449,6 +449,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/linkedLists/ReverseKGroupLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/linkedLists/ReverseKGroupLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -559,16 +560,30 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava"
+    "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinOperationsToMakeArrayUnique">
+  <component name="RunManager" selected="Application.CountTripletsWithGivenSum">
     <configuration name="CountPairsWithAbsDiffK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.hashing.CountPairsWithAbsDiffK" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.dsa.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountTripletsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountTripletsWithGivenSum" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,19 +617,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.linkedLists.ReverseLinkedList" />
-      <module name="DSABootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.dsa.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.linkedLists.RotateLinkedList" />
       <module name="DSABootcampJava" />
@@ -630,11 +632,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTripletsWithGivenSum" />
         <item itemvalue="Application.MinOperationsToMakeArrayUnique" />
         <item itemvalue="Application.RotateLinkedList" />
         <item itemvalue="Application.CountPairsWithAbsDiffK" />
         <item itemvalue="Application.MinDistanceBetweenMinMaxOfArray" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>

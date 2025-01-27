@@ -531,6 +531,7 @@
     "Application.GroupAnagrams.executor": "Run",
     "Application.HIndex.executor": "Run",
     "Application.IndexOfFirstMatchedPattern.executor": "Run",
+    "Application.IndexesOfSubArraySum.executor": "Run",
     "Application.IntegerToWords.executor": "Run",
     "Application.KarpRabin.executor": "Run",
     "Application.KokoEatingBananas.executor": "Run",
@@ -568,7 +569,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountPossibleTriangles">
+  <component name="RunManager" selected="Application.IndexesOfSubArraySum">
     <configuration name="CountPairsWhoseSumIsLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPairsWhoseSumIsLessThanTarget" />
       <module name="DSABootcampJava" />
@@ -608,8 +609,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTripletsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountTripletsWithGivenSum" />
+    <configuration name="IndexesOfSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.IndexesOfSubArraySum" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -636,11 +637,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IndexesOfSubArraySum" />
         <item itemvalue="Application.CountPossibleTriangles" />
         <item itemvalue="Application.CountPairsWithGivenSum" />
         <item itemvalue="Application.SumPairClosestToTarget" />
         <item itemvalue="Application.CountPairsWhoseSumIsLessThanTarget" />
-        <item itemvalue="Application.CountTripletsWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
@@ -1154,6 +1155,66 @@
           <url>file://$PROJECT_DIR$/src/com/java/dsa/hashing/MinDistanceBetweenMinMaxOfArray.java</url>
           <line>12</line>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/ConstructBSTFromPreorder.java</url>

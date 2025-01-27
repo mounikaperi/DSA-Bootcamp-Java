@@ -518,6 +518,7 @@
     "Application.CountPairsWhoseSumIsLessThanTarget.executor": "Run",
     "Application.CountPairsWithAbsDiffK.executor": "Run",
     "Application.CountPairsWithGivenSum.executor": "Run",
+    "Application.CountPossibleTriangles.executor": "Run",
     "Application.CountSubArraysWithXor.executor": "Run",
     "Application.CountTripletsWithGivenSum.executor": "Run",
     "Application.CreateMatrixWithRowColSum.executor": "Run",
@@ -567,7 +568,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountPairsWithGivenSum">
+  <component name="RunManager" selected="Application.CountPossibleTriangles">
     <configuration name="CountPairsWhoseSumIsLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPairsWhoseSumIsLessThanTarget" />
       <module name="DSABootcampJava" />
@@ -594,8 +595,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTripletsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountTripletsWithGivenSum" />
+    <configuration name="CountPossibleTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPossibleTriangles" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -607,12 +608,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinOperationsToMakeArrayUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.sorting.MinOperationsToMakeArrayUnique" />
+    <configuration name="CountTripletsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountTripletsWithGivenSum" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.sorting.*" />
+          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -635,11 +636,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPossibleTriangles" />
         <item itemvalue="Application.CountPairsWithGivenSum" />
         <item itemvalue="Application.SumPairClosestToTarget" />
         <item itemvalue="Application.CountPairsWhoseSumIsLessThanTarget" />
         <item itemvalue="Application.CountTripletsWithGivenSum" />
-        <item itemvalue="Application.MinOperationsToMakeArrayUnique" />
       </list>
     </recent_temporary>
   </component>

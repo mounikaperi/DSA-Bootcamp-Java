@@ -517,6 +517,7 @@
     "Application.CountPairs.executor": "Run",
     "Application.CountPairsWhoseSumIsLessThanTarget.executor": "Run",
     "Application.CountPairsWithAbsDiffK.executor": "Run",
+    "Application.CountPairsWithGivenSum.executor": "Run",
     "Application.CountSubArraysWithXor.executor": "Run",
     "Application.CountTripletsWithGivenSum.executor": "Run",
     "Application.CreateMatrixWithRowColSum.executor": "Run",
@@ -566,9 +567,22 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumPairClosestToTarget">
+  <component name="RunManager" selected="Application.CountPairsWithGivenSum">
     <configuration name="CountPairsWhoseSumIsLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPairsWhoseSumIsLessThanTarget" />
+      <module name="DSABootcampJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountPairsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPairsWithGivenSum" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -606,19 +620,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.linkedLists.RotateLinkedList" />
-      <module name="DSABootcampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.dsa.linkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumPairClosestToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.SumPairClosestToTarget" />
       <module name="DSABootcampJava" />
@@ -634,11 +635,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPairsWithGivenSum" />
         <item itemvalue="Application.SumPairClosestToTarget" />
         <item itemvalue="Application.CountPairsWhoseSumIsLessThanTarget" />
         <item itemvalue="Application.CountTripletsWithGivenSum" />
         <item itemvalue="Application.MinOperationsToMakeArrayUnique" />
-        <item itemvalue="Application.RotateLinkedList" />
       </list>
     </recent_temporary>
   </component>

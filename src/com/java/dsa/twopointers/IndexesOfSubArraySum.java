@@ -2,6 +2,7 @@ package com.java.dsa.twopointers;
 
 import java.sql.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class IndexesOfSubArraySum {
     public static void main(String[] args) {
@@ -91,6 +92,33 @@ public class IndexesOfSubArraySum {
             }
         }
         result.add(-1);
+        return result;
+    }
+    static ArrayList<Integer> subarraySumHashingPrefixSum(int[] arr, int target) {
+        int sumSoFar = 0, left = 0, right = -1;
+        ArrayList<Integer> result = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i=0; i<arr.length; i++) {
+            sumSoFar += arr[i];
+            if (sumSoFar - target == 0) {
+                left = 0;
+                right = i;
+                break;
+            }
+            if (map.containsKey(sumSoFar-target)) {
+                // if hashmap already has the value, means we already have subarray with target so stop
+                left = map.get(sumSoFar-target)+1;
+                right = i;
+                break;
+            }
+            map.put(sumSoFar, i);
+        }
+        if (right == -1) {
+            result.add(-1);
+            return result;
+        }
+        result.add(left+1);
+        result.add(right+1);
         return result;
     }
 }

@@ -449,6 +449,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -1158,62 +1159,62 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>50</line>
+          <line>51</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>42</line>
+          <line>43</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>54</line>
+          <line>55</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>61</line>
+          <line>62</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>62</line>
+          <line>63</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
-          <line>64</line>
+          <line>65</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

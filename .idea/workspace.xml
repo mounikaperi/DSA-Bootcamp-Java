@@ -449,16 +449,6 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/FruitsIntoBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/FruitsIntoBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/MaxConsecutiveOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/MaxPointsInCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/MaxPointsInCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountPairsWhoseSumIsLessThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountPairsWhoseSumIsLessThanTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountPairsWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountPairsWithGivenSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountPossibleTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountPossibleTriangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountTripletsWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountTripletsWithGivenSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/SumPairClosestToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/SumPairClosestToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -571,6 +561,7 @@
     "Application.SumOfDigitsTillSingleDigit.executor": "Run",
     "Application.SumPairClosestToTarget.executor": "Run",
     "Application.SwapTwoNumbersWithoutThird.executor": "Run",
+    "Application.TappingRainWater.executor": "Run",
     "Application.TripletsWithZeroSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -580,7 +571,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountDistinctElementsInEveryWindow">
+  <component name="RunManager" selected="Application.TappingRainWater">
     <configuration name="CountDistinctElementsInEveryWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.CountDistinctElementsInEveryWindow" />
       <module name="DSABootcampJava" />
@@ -633,8 +624,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumPairClosestToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.SumPairClosestToTarget" />
+    <configuration name="TappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.TappingRainWater" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -648,11 +639,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TappingRainWater" />
         <item itemvalue="Application.CountDistinctElementsInEveryWindow" />
         <item itemvalue="Application.IndexesOfSubArraySum" />
         <item itemvalue="Application.CountPossibleTriangles" />
         <item itemvalue="Application.CountPairsWithGivenSum" />
-        <item itemvalue="Application.SumPairClosestToTarget" />
       </list>
     </recent_temporary>
   </component>

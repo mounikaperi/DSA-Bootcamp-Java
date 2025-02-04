@@ -449,7 +449,16 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/FruitsIntoBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/FruitsIntoBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/MaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/slidingwindow/MaxPointsInCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/MaxPointsInCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountPairsWhoseSumIsLessThanTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountPairsWhoseSumIsLessThanTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountPairsWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountPairsWithGivenSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountPossibleTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountPossibleTriangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/CountTripletsWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountTripletsWithGivenSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/twopointers/SumPairClosestToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/SumPairClosestToTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -514,6 +523,7 @@
     "Application.CheckIfSentenceIsPanagram.executor": "Run",
     "Application.ConcatenationOfTwoArrays.executor": "Run",
     "Application.Conversions.executor": "Run",
+    "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
     "Application.CountNoOfOccurrencesInSortedArray.executor": "Run",
     "Application.CountPairs.executor": "Run",
     "Application.CountPairsWhoseSumIsLessThanTarget.executor": "Run",
@@ -570,13 +580,13 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IndexesOfSubArraySum">
-    <configuration name="CountPairsWhoseSumIsLessThanTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPairsWhoseSumIsLessThanTarget" />
+  <component name="RunManager" selected="Application.CountDistinctElementsInEveryWindow">
+    <configuration name="CountDistinctElementsInEveryWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.CountDistinctElementsInEveryWindow" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.java.dsa.slidingwindowtwopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -585,11 +595,11 @@
       </method>
     </configuration>
     <configuration name="CountPairsWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPairsWithGivenSum" />
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.CountPairsWithGivenSum" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.java.dsa.slidingwindowtwopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -598,11 +608,11 @@
       </method>
     </configuration>
     <configuration name="CountPossibleTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.CountPossibleTriangles" />
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.CountPossibleTriangles" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.java.dsa.slidingwindowtwopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -611,11 +621,11 @@
       </method>
     </configuration>
     <configuration name="IndexesOfSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.IndexesOfSubArraySum" />
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.IndexesOfSubArraySum" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.java.dsa.slidingwindowtwopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -624,11 +634,11 @@
       </method>
     </configuration>
     <configuration name="SumPairClosestToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.twopointers.SumPairClosestToTarget" />
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.SumPairClosestToTarget" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.twopointers.*" />
+          <option name="PATTERN" value="com.java.dsa.slidingwindowtwopointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -638,11 +648,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDistinctElementsInEveryWindow" />
         <item itemvalue="Application.IndexesOfSubArraySum" />
         <item itemvalue="Application.CountPossibleTriangles" />
         <item itemvalue="Application.CountPairsWithGivenSum" />
         <item itemvalue="Application.SumPairClosestToTarget" />
-        <item itemvalue="Application.CountPairsWhoseSumIsLessThanTarget" />
       </list>
     </recent_temporary>
   </component>
@@ -1158,64 +1168,134 @@
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>52</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>51</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>50</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>44</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>43</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>42</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>53</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>55</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>57</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>62</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>63</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/java/dsa/twopointers/IndexesOfSubArraySum.java</url>
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
           <line>65</line>
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/IndexesOfSubArraySum.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/ConstructBSTFromPreorder.java</url>

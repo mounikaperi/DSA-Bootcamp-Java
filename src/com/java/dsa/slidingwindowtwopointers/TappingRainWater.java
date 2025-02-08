@@ -6,6 +6,8 @@ public class TappingRainWater {
         System.out.println(maxWaterNaive(arr));
         int[] arr1 = { 2, 1, 5, 3, 1, 0, 4 };
         System.out.println(maxWaterPrefixSuffix(arr1));
+        int[] arr2 = { 2, 1, 5, 3, 1, 0, 4 };
+        System.out.println(maxWaterTwoPointers(arr2));
     }
     static int maxWaterNaive(int[] arr) {
         // Traverse every array element and find the highest bars on the left
@@ -50,6 +52,26 @@ public class TappingRainWater {
             int minOf2 = Math.min(left[i-1], right[i+1]);
             if (minOf2 > arr[i])
                 result += minOf2 - arr[i];
+        }
+        return result;
+    }
+    static int maxWaterTwoPointers(int[] arr) {
+        int n = arr.length;
+        int left = 1;
+        int right = n-2;
+        int lMax = arr[left-1];
+        int rMax = arr[right+1];
+        int result = 0;
+        while (left <= right) {
+            if (rMax<=lMax) {
+                result += Math.max(0, rMax-arr[right]);
+                rMax = Math.max(rMax, arr[right]);
+                right -=1;
+            } else {
+                result += Math.max(0, lMax-arr[left]);
+                lMax = Math.max(lMax, arr[left]);
+                left += 1;
+            }
         }
         return result;
     }

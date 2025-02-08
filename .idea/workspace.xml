@@ -573,7 +573,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EquilibriumIndex">
+  <component name="RunManager" selected="Application.LongestSubarrayWithEqualNumberOf0s1s">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.ContainerWithMostWater" />
       <module name="DSABootcampJava" />
@@ -613,12 +613,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexesOfSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.slidingwindowtwopointers.IndexesOfSubArraySum" />
+    <configuration name="LongestSubarrayWithEqualNumberOf0s1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.prefixsum.LongestSubarrayWithEqualNumberOf0s1s" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.slidingwindowtwopointers.*" />
+          <option name="PATTERN" value="com.java.dsa.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -641,11 +641,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubarrayWithEqualNumberOf0s1s" />
         <item itemvalue="Application.EquilibriumIndex" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.TappingRainWater" />
         <item itemvalue="Application.CountDistinctElementsInEveryWindow" />
-        <item itemvalue="Application.IndexesOfSubArraySum" />
       </list>
     </recent_temporary>
   </component>

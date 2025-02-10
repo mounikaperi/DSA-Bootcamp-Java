@@ -449,6 +449,7 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingSingleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingSingleQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -505,88 +506,93 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayImplementationOfQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BuildArrayFromPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckIfNumberIsEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckIfSentenceIsPanagram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConcatenationOfTwoArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conversions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountDistinctElementsInEveryWindow.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountNoOfOccurrencesInSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountPairsWhoseSumIsLessThanTarget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountPairsWithAbsDiffK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountPairsWithGivenSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountPossibleTriangles.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountSubArraysWithXor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountTripletsWithGivenSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateMatrixWithRowColSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreateSpiralMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EquilibriumIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMinInRotatedSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPivot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindUniqueNumberInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormBiggestNumber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplementDynamicStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplementStackUsingArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IndexOfFirstMatchedPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IndexesOfSubArraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntegerToWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KarpRabin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KokoEatingBananas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestHappyPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestPrefixSuffix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubarrayWithEqualNumberOf0s1s.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MakingRowColSumsEqual.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MedianOfTwoSortedArraysOfSameSize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeOverlappingIntervals.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinCharsToAddForPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinDistanceBetweenMinMaxOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinOperationsToMakeArrayUnique.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinSumOfTwoNumbersInArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumRepetitions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfGoodPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateArrayBy180Deg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotationStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunningSumOf1D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchInRotatedSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SentencePalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestPalindrome.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Sort0s1s2s.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SplitArrayInThreeEqualSumSubarrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfDigitsTillSingleDigit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumPairClosestToTarget.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwapTwoNumbersWithoutThird.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TappingRainWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TripletsWithZeroSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/saimo/Projects/DSABootcampJava&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayImplementationOfQueue.executor": "Run",
+    "Application.BubbleSort.executor": "Debug",
+    "Application.BuildArrayFromPermutation.executor": "Run",
+    "Application.CheckIfNumberIsEven.executor": "Run",
+    "Application.CheckIfSentenceIsPanagram.executor": "Run",
+    "Application.ConcatenationOfTwoArrays.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.Conversions.executor": "Run",
+    "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
+    "Application.CountNoOfOccurrencesInSortedArray.executor": "Run",
+    "Application.CountPairs.executor": "Run",
+    "Application.CountPairsWhoseSumIsLessThanTarget.executor": "Run",
+    "Application.CountPairsWithAbsDiffK.executor": "Run",
+    "Application.CountPairsWithGivenSum.executor": "Run",
+    "Application.CountPossibleTriangles.executor": "Run",
+    "Application.CountSubArraysWithXor.executor": "Run",
+    "Application.CountTripletsWithGivenSum.executor": "Run",
+    "Application.CreateMatrixWithRowColSum.executor": "Run",
+    "Application.CreateSpiralMatrix.executor": "Run",
+    "Application.EquilibriumIndex.executor": "Run",
+    "Application.FindMinInRotatedSortedArray.executor": "Run",
+    "Application.FindPivot.executor": "Run",
+    "Application.FindUniqueNumberInArray.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FormBiggestNumber.executor": "Debug",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.HIndex.executor": "Run",
+    "Application.ImplementDynamicStack.executor": "Run",
+    "Application.ImplementQueueUsingStacks.executor": "Run",
+    "Application.ImplementStackUsingArray.executor": "Run",
+    "Application.ImplementStackUsingPriorityQueue.executor": "Run",
+    "Application.ImplementStackUsingQueues.executor": "Debug",
+    "Application.ImplementStackUsingSingleQueue.executor": "Run",
+    "Application.ImplementTwoStacksWithInputArray.executor": "Run",
+    "Application.IndexOfFirstMatchedPattern.executor": "Run",
+    "Application.IndexesOfSubArraySum.executor": "Run",
+    "Application.IntegerToWords.executor": "Run",
+    "Application.KarpRabin.executor": "Run",
+    "Application.KokoEatingBananas.executor": "Run",
+    "Application.LongestHappyPrefix.executor": "Run",
+    "Application.LongestPrefixSuffix.executor": "Run",
+    "Application.LongestSubarrayWithEqualNumberOf0s1s.executor": "Run",
+    "Application.MakingRowColSumsEqual.executor": "Debug",
+    "Application.MedianOfTwoSortedArraysOfSameSize.executor": "Run",
+    "Application.MergeOverlappingIntervals.executor": "Debug",
+    "Application.MinCharsToAddForPalindrome.executor": "Run",
+    "Application.MinDistanceBetweenMinMaxOfArray.executor": "Run",
+    "Application.MinOperationsToMakeArrayUnique.executor": "Run",
+    "Application.MinStack.executor": "Run",
+    "Application.MinSumOfTwoNumbersInArray.executor": "Debug",
+    "Application.MinimumRepetitions.executor": "Run",
+    "Application.NumberOfGoodPairs.executor": "Run",
+    "Application.ProductOfArrayExceptSelf.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Debug",
+    "Application.RichestCustomerWealth.executor": "Run",
+    "Application.RotateArrayBy180Deg.executor": "Run",
+    "Application.RotateLinkedList.executor": "Run",
+    "Application.RotationStrings.executor": "Run",
+    "Application.RunningSumOf1D.executor": "Run",
+    "Application.SearchInRotatedSortedArray.executor": "Run",
+    "Application.SentencePalindrome.executor": "Run",
+    "Application.ShortestPalindrome.executor": "Debug",
+    "Application.Sort0s1s2s.executor": "Run",
+    "Application.SplitArrayInThreeEqualSumSubarrays.executor": "Run",
+    "Application.SumOfDigitsTillSingleDigit.executor": "Run",
+    "Application.SumPairClosestToTarget.executor": "Run",
+    "Application.SwapTwoNumbersWithoutThird.executor": "Run",
+    "Application.TappingRainWater.executor": "Run",
+    "Application.TripletsWithZeroSum.executor": "Run",
+    "Application.ValidParentheses.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/saimo/Projects/DSABootcampJava",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.ImplementStackUsingQueues">
-    <configuration name="ArrayImplementationOfQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.queues.ArrayImplementationOfQueue" />
+}]]></component>
+  <component name="RunManager" selected="Application.ImplementStackUsingPriorityQueue">
+    <configuration name="ImplementQueueUsingStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementQueueUsingStacks" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.queues.*" />
+          <option name="PATTERN" value="com.java.dsa.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -594,12 +600,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStackUsingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementStackUsingArray" />
+    <configuration name="ImplementStackUsingPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementStackUsingPriorityQueue" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.queues.*" />
+          <option name="PATTERN" value="com.java.dsa.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -620,8 +626,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.MinStack" />
+    <configuration name="ImplementStackUsingSingleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.queues.ImplementStackUsingSingleQueue" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -633,12 +639,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ValidParentheses" />
+    <configuration name="ImplementTwoStacksWithInputArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementTwoStacksWithInputArray" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.queues.*" />
+          <option name="PATTERN" value="com.java.dsa.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -648,11 +654,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImplementStackUsingPriorityQueue" />
+        <item itemvalue="Application.ImplementTwoStacksWithInputArray" />
+        <item itemvalue="Application.ImplementQueueUsingStacks" />
+        <item itemvalue="Application.ImplementStackUsingSingleQueue" />
         <item itemvalue="Application.ImplementStackUsingQueues" />
-        <item itemvalue="Application.ArrayImplementationOfQueue" />
-        <item itemvalue="Application.MinStack" />
-        <item itemvalue="Application.ImplementStackUsingArray" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -1296,6 +1302,86 @@
           <url>file://$PROJECT_DIR$/src/com/java/dsa/slidingwindowtwopointers/CountDistinctElementsInEveryWindow.java</url>
           <line>47</line>
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/ConstructBSTFromPreorder.java</url>

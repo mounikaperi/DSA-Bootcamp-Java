@@ -449,7 +449,6 @@
       <change beforePath="$PROJECT_DIR$/../DSA/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DSA/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingSingleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingSingleQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
@@ -516,6 +515,12 @@
     "Application.ConcatenationOfTwoArrays.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.Conversions.executor": "Run",
+    "Application.ConvertInfixToPostFix.executor": "Run",
+    "Application.ConvertInfixToPrefix.executor": "Run",
+    "Application.ConvertPostfixToInfix.executor": "Run",
+    "Application.ConvertPostfixToPrefix.executor": "Run",
+    "Application.ConvertPrefixToInfix.executor": "Run",
+    "Application.ConvertPrefixToPostfix.executor": "Run",
     "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
     "Application.CountNoOfOccurrencesInSortedArray.executor": "Run",
     "Application.CountPairs.executor": "Run",
@@ -586,9 +591,9 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ImplementStackUsingPriorityQueue">
-    <configuration name="ImplementQueueUsingStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementQueueUsingStacks" />
+  <component name="RunManager" selected="Application.ConvertInfixToPrefix">
+    <configuration name="ConvertInfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertInfixToPrefix" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -600,8 +605,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStackUsingPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementStackUsingPriorityQueue" />
+    <configuration name="ConvertPostfixToInfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPostfixToInfix" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -613,12 +618,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStackUsingQueues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.queues.ImplementStackUsingQueues" />
+    <configuration name="ConvertPostfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPostfixToPrefix" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.queues.*" />
+          <option name="PATTERN" value="com.java.dsa.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,12 +631,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementStackUsingSingleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.queues.ImplementStackUsingSingleQueue" />
+    <configuration name="ConvertPrefixToInfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPrefixToInfix" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.queues.*" />
+          <option name="PATTERN" value="com.java.dsa.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -639,8 +644,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementTwoStacksWithInputArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ImplementTwoStacksWithInputArray" />
+    <configuration name="ConvertPrefixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPrefixToPostfix" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -654,11 +659,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImplementStackUsingPriorityQueue" />
-        <item itemvalue="Application.ImplementTwoStacksWithInputArray" />
-        <item itemvalue="Application.ImplementQueueUsingStacks" />
-        <item itemvalue="Application.ImplementStackUsingSingleQueue" />
-        <item itemvalue="Application.ImplementStackUsingQueues" />
+        <item itemvalue="Application.ConvertInfixToPrefix" />
+        <item itemvalue="Application.ConvertPostfixToInfix" />
+        <item itemvalue="Application.ConvertPostfixToPrefix" />
+        <item itemvalue="Application.ConvertPrefixToPostfix" />
+        <item itemvalue="Application.ConvertPrefixToInfix" />
       </list>
     </recent_temporary>
   </component>

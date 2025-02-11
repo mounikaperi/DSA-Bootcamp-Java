@@ -564,7 +564,12 @@
     "Application.MinStack.executor": "Run",
     "Application.MinSumOfTwoNumbersInArray.executor": "Debug",
     "Application.MinimumRepetitions.executor": "Run",
+    "Application.NextGreaterElement.executor": "Run",
+    "Application.NextGreaterElementUsingCircularArray.executor": "Run",
+    "Application.NextSmallerElement.executor": "Run",
     "Application.NumberOfGoodPairs.executor": "Run",
+    "Application.NumberOfGreaterElementsToRight.executor": "Run",
+    "Application.ParenthesesChecker.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Run",
     "Application.ReverseLinkedList.executor": "Debug",
     "Application.RichestCustomerWealth.executor": "Run",
@@ -581,6 +586,7 @@
     "Application.SumPairClosestToTarget.executor": "Run",
     "Application.SwapTwoNumbersWithoutThird.executor": "Run",
     "Application.TappingRainWater.executor": "Run",
+    "Application.TheCelebrityProblem.executor": "Run",
     "Application.TripletsWithZeroSum.executor": "Run",
     "Application.ValidParentheses.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -591,9 +597,9 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConvertInfixToPrefix">
-    <configuration name="ConvertInfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertInfixToPrefix" />
+  <component name="RunManager" selected="Application.TheCelebrityProblem">
+    <configuration name="NextGreaterElementUsingCircularArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.NextGreaterElementUsingCircularArray" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -605,8 +611,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertPostfixToInfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPostfixToInfix" />
+    <configuration name="NextSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.NextSmallerElement" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -618,8 +624,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertPostfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPostfixToPrefix" />
+    <configuration name="NumberOfGreaterElementsToRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.NumberOfGreaterElementsToRight" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -631,8 +637,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertPrefixToInfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPrefixToInfix" />
+    <configuration name="ParenthesesChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ParenthesesChecker" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -644,8 +650,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertPrefixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.ConvertPrefixToPostfix" />
+    <configuration name="TheCelebrityProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.TheCelebrityProblem" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -659,11 +665,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConvertInfixToPrefix" />
-        <item itemvalue="Application.ConvertPostfixToInfix" />
-        <item itemvalue="Application.ConvertPostfixToPrefix" />
-        <item itemvalue="Application.ConvertPrefixToPostfix" />
-        <item itemvalue="Application.ConvertPrefixToInfix" />
+        <item itemvalue="Application.TheCelebrityProblem" />
+        <item itemvalue="Application.ParenthesesChecker" />
+        <item itemvalue="Application.NumberOfGreaterElementsToRight" />
+        <item itemvalue="Application.NextSmallerElement" />
+        <item itemvalue="Application.NextGreaterElementUsingCircularArray" />
       </list>
     </recent_temporary>
   </component>
@@ -1387,6 +1393,11 @@
           <url>file://$PROJECT_DIR$/src/com/java/dsa/queues/ImplementStackUsingQueues.java</url>
           <line>44</line>
           <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/dsa/stacks/TheCelebrityProblem.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/java/dsa/trees/binarySearchTrees/ConstructBSTFromPreorder.java</url>

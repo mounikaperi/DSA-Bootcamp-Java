@@ -567,6 +567,7 @@
     "Application.NextGreaterElement.executor": "Run",
     "Application.NextGreaterElementUsingCircularArray.executor": "Run",
     "Application.NextSmallerElement.executor": "Run",
+    "Application.NextSmallerOfNextGreaterElement.executor": "Run",
     "Application.NumberOfGoodPairs.executor": "Run",
     "Application.NumberOfGreaterElementsToRight.executor": "Run",
     "Application.ParenthesesChecker.executor": "Run",
@@ -598,9 +599,9 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TheStockSpanProblem">
-    <configuration name="NextSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.NextSmallerElement" />
+  <component name="RunManager" selected="Application.NextSmallerOfNextGreaterElement">
+    <configuration name="NextSmallerOfNextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.stacks.NextSmallerOfNextGreaterElement" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
@@ -666,11 +667,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextSmallerOfNextGreaterElement" />
         <item itemvalue="Application.TheStockSpanProblem" />
         <item itemvalue="Application.TheCelebrityProblem" />
         <item itemvalue="Application.ParenthesesChecker" />
         <item itemvalue="Application.NumberOfGreaterElementsToRight" />
-        <item itemvalue="Application.NextSmallerElement" />
       </list>
     </recent_temporary>
   </component>

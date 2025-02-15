@@ -604,7 +604,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TrappingRainWater">
+  <component name="RunManager" selected="Application.PartitionIntoMinSetsOfConsecutiveNumbers">
     <configuration name="DecimalToBinaryNumberConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.dsa.recursion.DecimalToBinaryNumberConversion" />
       <module name="DSABootcampJava" />
@@ -631,12 +631,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbersWithoutLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.dsa.recursion.PrintNumbersWithoutLoops" />
+    <configuration name="PartitionIntoMinSetsOfConsecutiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.dsa.hashing.PartitionIntoMinSetsOfConsecutiveNumbers" />
       <module name="DSABootcampJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.dsa.recursion.*" />
+          <option name="PATTERN" value="com.java.dsa.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -672,11 +672,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionIntoMinSetsOfConsecutiveNumbers" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.DecimalToBinaryNumberConversion" />
         <item itemvalue="Application.SumOfNNaturalNumbers" />
         <item itemvalue="Application.FindMeanOfArray" />
-        <item itemvalue="Application.PrintNumbersWithoutLoops" />
       </list>
     </recent_temporary>
   </component>

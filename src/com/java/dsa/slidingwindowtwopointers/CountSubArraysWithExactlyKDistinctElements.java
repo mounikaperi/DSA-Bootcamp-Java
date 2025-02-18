@@ -36,7 +36,7 @@ public class CountSubArraysWithExactlyKDistinctElements {
                 k -= 1;
             }
             while (k < 0) {
-                map.put(arr[left], map.get(arr[left]-1));
+                map.put(arr[left], map.get(arr[left]) - 1);
                 if (map.get(arr[left]) == 0) {
                     k += 1;
                 }
